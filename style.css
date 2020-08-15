@@ -1,0 +1,165 @@
+body
+{
+    background: url("img/background.png"); /* Background pattern from Toptal Subtle Patterns */
+    font-family: 'Lato', sans-serif;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+header#mainheader
+{
+    background: #1b1ac7;
+    text-shadow: 
+    1px 1px #0d2180,
+    -1px 1px #0d2180,
+    1px -1px #0d2180,
+    -1px -1px #0d2180;
+    font-size: 2.75em;
+    text-align: center;
+    padding: 20px 0;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+header#mainheader p
+{
+    font-size: 0.5em;
+    text-shadow: none;
+    letter-spacing: normal;
+    color: #aaa;
+}
+main
+{
+    width: 90%;
+    box-sizing: border-box;
+    height: 75vh;
+    background: #6f9;
+    margin: auto;
+    border: 1px solid white;
+}
+nav
+{
+    float: left;
+    margin: 0;
+    vertical-align: middle;
+}
+article#formulas
+{
+    float: left;
+    height: 100%;
+    overflow: scroll;
+    text-align: left;
+}
+article::-webkit-scrollbar-corner
+{
+    background-color: transparent;
+}
+article#content
+{
+    float: left;
+    width: 50vw;
+    padding: 50px;
+    text-align: center;
+}
+footer
+{
+    background: white;
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 10px 10px;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    text-align: left;
+}
+.subject
+{
+    width: 15vw;
+    height: 2.63vh;
+    background-color: #add8e6;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 4vh 0;
+    border-bottom: 1px dashed blue;
+    cursor: pointer;
+    transition: 0.3s all ease-out;
+}
+.subject:hover
+{
+    transform: scale(1.25);
+    border-top: 1px dashed blue;
+}
+#specialSubject:hover
+{
+    transform: scale(1.25);
+    border-top: none !important;
+}
+.subject:last-child
+{
+    border-bottom: none;
+}
+.formula
+{
+    width: 300px;
+    min-height: 10px;
+    max-height: 50px;
+    border: #a52a2a 1px solid;
+    padding: 60px 5px;
+    margin: 10px;
+    text-align: center;
+    font-weight: 900;
+    letter-spacing: 2px;
+    font-size: 1.5em;
+    transition: ease-in-out 0.25s all;
+    cursor: pointer;
+}
+.formula:hover
+{
+    background-color: #3c6;
+    border-color: #830808;
+}
+.formwrapper
+{
+    margin-left: 25px;
+}
+.right
+{
+    text-align: right;
+    float: right;
+    display: block;
+    margin-right: 10px;
+}
+#bigformula
+{
+    border: #7a0000 1px solid;
+    width: 100%;
+    min-height: 100px;
+    -webkit-box-shadow: 35px 26px 69px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 35px 26px 69px 2px rgba(0,0,0,0.75);
+    box-shadow: 35px 26px 69px 2px rgba(0,0,0,0.75);
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Press Start 2P', cursive;
+    padding: 150px 0;
+}
+#explanation
+{
+    border: #7a0000 1px solid;
+    width: 100%;
+    margin-top: 30px;
+    min-height: 200px;
+    -webkit-box-shadow: 35px 26px 69px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 35px 26px 69px 2px rgba(0,0,0,0.75);
+    box-shadow: 35px 26px 69px 2px rgba(0,0,0,0.75);
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+.exoformula
+{
+    border: 0;
+    cursor: default;
+}
+.exoformula:hover
+{
+    background-color: inherit;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+    <head>
+        <title>Wzory na chemię</title>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Press+Start+2P&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap" rel="stylesheet">
+        <link rel="Stylesheet" href="style.css" type="text/css">
+        <script src="script.js"></script>
+    </head>
+
+    <body>
+        <header id="mainheader">
+            <p1>Witaj! Na tej stronie znajdziesz wiele wzorów matematycznych do nauki Chemii!</p1>
+            <p>Kliknij w konkretny dział z listy obok, aby zobaczyć wzory</p>
+        </header>
+
+        <main>
+            <nav>
+                <div class="subject" id="specialSubject" onclick="execute_formulas(1);">Elektrochemia</div>
+                <div class="subject" onclick="execute_formulas(2);">Chemia Kwasów i Zasad</div>
+                <div class="subject" onclick="execute_formulas(3);">Chemia Soli i Buforów</div>
+                <div class="subject" onclick="execute_formulas(4);">Stechiometria Ogólna</div>
+                <div class="subject" onclick="execute_formulas(5);">Stężenia</div>
+                <div class="subject" onclick="execute_formulas(6);">Wzory Organiczne</div>
+                <div class="subject" onclick="execute_formulas(7);">Chemia fizyczna</div>
+            </nav>
+
+            <article id="formulas">
+                <div class="formula exoformula"></div>
+            </article>
+
+            <article id="content">
+
+                <div id="bigformula">
+                    <span onmouseover="explanation(3, 1, 1);"></span>
+                    
+                    <span onmouseover="explanation(3, 1, 2);"></span>
+                    
+                    <span onmouseover="explanation(3, 1, 3);"></sup></span>
+                    
+                    <span onmouseover="explanation(3, 1, 4);"></span>
+                </div>
+                <div id="explanation">
+
+                </div>
+
+            </article>
+
+            <div style="clear: both;"></div>
+        </main>
+
+        <footer>
+            W razie problemów lub chęci dodania wzorów proszę o kontakt przez pocztę e-mail: wawrinka2005w@gmail.com
+            <div class="right">Wiktor Wiśniewski 2020 &copy;</div>
+            <div style="clear: both;"></div>
+        </footer>
+    </body>
+</html>
