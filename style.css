@@ -19,6 +19,7 @@ header#mainheader
     padding: 20px 0;
     letter-spacing: 1px;
     margin-bottom: 10px;
+    min-height: 120px;
 }
 header#mainheader p
 {
@@ -35,6 +36,8 @@ main
     background: #6f9;
     margin: auto;
     border: 1px solid white;
+    overflow: visible;
+    text-align: center;
 }
 nav
 {
@@ -46,7 +49,7 @@ article#formulas
 {
     float: left;
     height: 100%;
-    overflow: scroll;
+    overflow: scroll !important;
     text-align: left;
 }
 article::-webkit-scrollbar-corner
@@ -59,6 +62,7 @@ article#content
     width: 50vw;
     padding: 50px;
     text-align: center;
+    overflow: visible;
 }
 footer
 {
@@ -66,11 +70,12 @@ footer
     box-sizing: border-box;
     width: 100%;
     font-size: 1.5em;
-    text-align: center;
     padding: 10px 10px;
     letter-spacing: 1px;
     margin-top: 20px;
     text-align: left;
+    height: 45px;
+    position: relative;
 }
 .subject
 {
@@ -122,12 +127,22 @@ footer
 {
     margin-left: 25px;
 }
+.left
+{
+    text-align: left;
+    display: block;
+    margin-right: 10px;
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+}
 .right
 {
     text-align: right;
-    float: right;
     display: block;
-    margin-right: 10px;
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
 }
 #bigformula
 {
@@ -142,7 +157,7 @@ footer
     font-family: 'Press Start 2P', cursive;
     padding: 150px 0;
 }
-#explanation
+#explanation /* FIXME: naprawić relacje padding - height */
 {
     border: #7a0000 1px solid;
     width: 100%;
@@ -162,4 +177,114 @@ footer
 .exoformula:hover
 {
     background-color: inherit;
+}
+
+/* Mniejsze urządzenia SMALLER DEVICES */
+
+@media only screen and (max-width: 1870px)
+{
+    article#content
+    {
+        width: 40vw;
+        padding: 40px;
+    }
+    #bigformula
+    {
+        font-size: 2em;
+    }
+}
+@media only screen and (max-width: 1700px)
+{
+    .subject
+    {
+        font-size: 1.25em;
+    }
+    footer
+    {
+        font-size: 1.25em;
+    }
+    header#mainheader
+    {
+        font-size: 2.3em;
+    }
+}
+@media only screen and (max-width: 1410px)
+{
+    .subject
+    {
+        font-size: 1em;
+    }
+    footer
+    {
+        font-size: 1em;
+    }
+    header#mainheader
+    {
+        font-size: 2em;
+    }
+    #bigformula
+    {
+        font-size: 1.6em;
+    }
+}
+@media only screen and (max-width: 1270px)
+{
+    article#content
+    {
+        width: 30vw;
+        padding: 20px;
+    }
+    header#mainheader
+    {
+        font-size: 1.75em;
+    }
+    #bigformula
+    {
+        font-size: 1em;
+    }
+} /* TODO: mobile version for screens < 900px */
+@media only screen and (max-height: 940px)
+{
+    footer
+    {
+        font-size: 1.25em;
+    }
+}
+@media only screen and (max-height: 920px)
+{
+    #bigformula
+    {
+        padding: 100px 0;
+    }
+}
+@media only screen and (max-height: 780px)
+{
+    #bigformula
+    {
+        padding: 85px 0;
+        -webkit-box-shadow: 35px 26px 40px 1px rgba(0,0,0,0.5);
+        -moz-box-shadow: 35px 26px 40px 1px rgba(0,0,0,0.5);
+        box-shadow: 35px 26px 40px 1px rgba(0,0,0,0.5);
+        font-size: 2em;
+        height: 30px;
+    }
+    #explanation
+    {
+        margin-top: 15px;
+        -webkit-box-shadow: 35px 26px 40px 1px rgba(0,0,0,0.5);
+        -moz-box-shadow: 35px 26px 40px 1px rgba(0,0,0,0.5);
+        box-shadow: 35px 26px 40px 1px rgba(0,0,0,0.5);
+    }
+}
+@media only screen and (max-height: 700px)
+{
+    article#content
+    {
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+    main
+    {
+        overflow: scroll;
+    }
 }

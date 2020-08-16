@@ -26,15 +26,66 @@ let inside2='<div id="formula1" class="formula" onclick="showformula(2, 1)">pH</
     
     let bf28='<span onmouseover="explanation(2, 8, 1);">K</span>=<span onmouseover="explanation(2, 8, 2);">Cm</span>*<span onmouseover="explanation(2, 8, 3);">&#945;<sup>2</sup></span>';
 
-let inside3='<div id="formula1" class="formula">Iloczyn rozpuszcalności</div><div id="formula2" class="formula">Rozpuszczalnść</div><div id="formula3" class="formula">Iloczyn jonowy wody</div><div id="formula4" class="formula">pH buforu kwaśnego</div><div id="formula5" class="formula">pOH buforu zasadowego</div>';
+let inside3='<div id="formula1" class="formula" onclick="showformula(3, 1)">Iloczyn rozpuszcalności</div><div id="formula2" class="formula" onclick="showformula(3, 2)">Rozpuszczalnść</div><div id="formula3" class="formula" onclick="showformula(3, 3)">Iloczyn jonowy wody</div><div id="formula4" class="formula" onclick="showformula(3, 4)">pH buforu kwaśnego</div><div id="formula5" class="formula" onclick="showformula(3, 5)">pOH buforu zasadowego</div>';
 
-let inside4='<div id="formula1" class="formula">Stężeniowa stała równowagi</div><div id="formula2" class="formula">Ciśnieniowa stała równowagi</div><div id="formula3" class="formula">Wydajność reakcji</div><div id="formula4" class="formula">Równanie Clapeyrona</div>'; 
+    let bf31='<span onmouseover="explanation(3, 1, 1);">Kso</span>=<span onmouseover="explanation(3, 1, 2);">[M+]<sup>r</sup></span>*<span onmouseover="explanation(3, 1, 3);">[R-]<sup>m</sup></span>/<span onmouseover="explanation(3, 1, 4);">[MR]</span>';
 
-let inside5='<div id="formula1" class="formula">Stężenie procentowe masowe</div><div id="formula2" class="formula">Stężenie procentowe molowe</div><div id="formula3" class="formula">Stężenie molowe</div><div id="formula4" class="formula">Stężenie molalne mol/m</div>';
+    let bf32='<span onmouseover="explanation(3, 2, 1);">KSo</span>=<span onmouseover="explanation(3, 2, 2);">(rSo)<sup>r</sup></span>*<span onmouseover="explanation(3, 2, 3);">(nR)<sup>n</sup></span>';
 
-let inside6='<div id="formula1" class="formula">Ilość wiązań<br>podwójnych/pierścieni</div><div id="formula2" class="formula">Skręcalność właściwa</div><div id="formula3" class="formula">Maksymalna ilość diastereoizomerów</div>';
+    let bf33='<span onmouseover="explanation(3, 3, 1);">Kw</span>=10<sup>-14</sup>';
 
-let inside7='<div id="formula1" class="formula">Szybkość reakcji</div><div id="formula2" class="formula">Standartowa entalpia</div><div id="formula3" class="formula">Entalpia swobodna</div><div id="formula4" class="formula">Entropia</div><div id="formula5" class="formula">Równanie Arheniusa</div><div id="formula6" class="formula">Równanie kinetyczne 1szego stopnia</div><div id="formula7" class="formula">Równanie kinetyczne 2giego stopnia</div><div id="formula8" class="formula">Równanie kinetyczne 3ciego stopnia</div><div id="formula9" class="formula">Równanie kinetyczne 4tego stopnia</div>';
+    let bf34='<span onmouseover="explanation(3, 4, 1);">pH</span>=<span onmouseover="explanation(3, 4, 2);">pKa</span>-log<sub>10</sub>(<span onmouseover="explanation(3, 4, 3);">C<sub>kw</sub></span>/<span onmouseover="explanation(3, 4, 4);">C<sub>s</sub></span>)';
+
+    let bf35='<span onmouseover="explanation(3, 5, 1);">pOH</span>=<span onmouseover="explanation(3, 5, 2);">pKb</span>-log<sub>10</sub>(<span onmouseover="explanation(3, 5, 3);">C<sub>kw</sub></span>/<span onmouseover="explanation(3, 5, 4);">C<sub>s</sub></span>)';
+    
+
+let inside4='<div id="formula1" class="formula" onclick="showformula(4, 1)">Stężeniowa stała równowagi</div><div id="formula2" class="formula" onclick="showformula(4, 2)">Ciśnieniowa stała równowagi</div><div id="formula3" class="formula" onclick="showformula(4, 3)">Wydajność reakcji</div><div id="formula4" class="formula" onclick="showformula(4, 4)">Równanie Clapeyrona</div>'; 
+
+    let bf41='<span onmouseover="explanation(4, 1, 1);">Kc</span>=<span onmouseover="explanation(4, 1, 2);">[C]<sup>c</sup></span>*<span onmouseover="explanation(4, 1, 3);">[D]<sup>d</sup></span>/(<span onmouseover="explanation(4, 1, 4);">[A]<sup>a</sup></span>*<span onmouseover="explanation(4, 1, 5);">[B]<sup>b</sup></span>)';
+
+    let bf42='nie wiem JESZCZE'; /* FIXME: wzór na ciśnieniową stałą równowagi */
+
+    let bf43='<span onmouseover="explanation(4, 3, 1);">W</span>=<span onmouseover="explanation(4, 3, 2);">m<sub>p</sub> o.</span>/<span onmouseover="explanation(4, 3, 3);">m<sub>p</sub> s.</span>*100%';
+
+    let bf44='<span onmouseover="explanation(4, 4, 1);">p</span>*<span onmouseover="explanation(4, 4, 2);">V</span>=<span onmouseover="explanation(4, 4, 3);">n</span>*<span onmouseover="explanation(4, 4, 4);">R</span>*<span onmouseover="explanation(4, 4, 5);">T</span>';
+
+let inside5='<div id="formula1" class="formula" onclick="showformula(5, 1)">Stężenie procentowe masowe</div><div id="formula2" class="formula" onclick="showformula(5, 2)">Stężenie procentowe molowe</div><div id="formula3" class="formula" onclick="showformula(5, 3)">Stężenie molowe</div><div id="formula4" class="formula" onclick="showformula(5, 4)">Stężenie molalne mol/m</div>';
+
+    let bf51='';
+
+    let bf52='';
+
+    let bf53='';
+
+    let bf54='';
+
+let inside6='<div id="formula1" class="formula" onclick="showformula(6, 1)">Ilość wiązań<br>podwójnych/pierścieni</div><div id="formula2" class="formula" onclick="showformula(6, 2)">Skręcalność właściwa</div><div id="formula3" class="formula" onclick="showformula(6, 3)">Maksymalna ilość diastereoizomerów</div>';
+
+    let bf61='';
+
+    let bf62='';
+
+    let bf63='';
+
+let inside7='<div id="formula1" class="formula" onclick="showformula(7, 1)">Szybkość reakcji</div><div id="formula2" class="formula" onclick="showformula(7, 2)">Standartowa entalpia</div><div id="formula3" class="formula" onclick="showformula(7, 3)">Entalpia swobodna</div><div id="formula4" class="formula" onclick="showformula(7, 4)">Entropia</div><div id="formula5" class="formula" onclick="showformula(7, 5)">Równanie Arheniusa</div><div id="formula6" class="formula" onclick="showformula(7, 6)">Równanie kinetyczne 1szego stopnia</div><div id="formula7" class="formula" onclick="showformula(7, 7)">Równanie kinetyczne 2giego stopnia</div><div id="formula8" class="formula" onclick="showformula(7, 8)">Równanie kinetyczne 3ciego stopnia</div><div id="formula9" class="formula" onclick="showformula(7, 9)">Równanie kinetyczne 4tego stopnia</div>';
+
+    let bf71='';
+
+    let bf72='';
+
+    let bf73='';
+
+    let bf74='';
+
+    let bf75='';
+
+    let bf76='';
+
+    let bf77='';
+
+    let bf78='';
+
+    let bf79='';
 
 //część właściwa po zmiennych
 
@@ -155,6 +206,165 @@ function showformula(group, place)
                     case 8:
                         {
                             document.getElementById("bigformula").innerHTML=bf28;
+                            break;
+                        }
+                }
+                break;
+            }
+            case 3:
+            {
+                switch(place)
+                {
+                    case 1:
+                        {
+                            document.getElementById("bigformula").innerHTML=bf31;
+                            break;
+                        }
+                    case 2:
+                        {
+                            document.getElementById("bigformula").innerHTML=bf32;
+                            break;
+                        }
+                    case 3:
+                        {
+                            document.getElementById("bigformula").innerHTML=bf33;
+                            break;
+                        }
+                    case 4:
+                        {
+                            document.getElementById("bigformula").innerHTML=bf34;
+                            break;
+                        }
+                    case 5:
+                        {
+                            document.getElementById("bigformula").innerHTML=bf35;
+                            break;
+                        }
+                }
+            break;
+            }
+            case 4:
+            {
+                switch(place)
+                {
+                    case 1:
+                        {
+                            document.getElementById("bigformula").innerHTML=bf41;
+                            break;
+                        }
+                    case 2:
+                        {
+                            document.getElementById("bigformula").innerHTML=bf42;
+                            break;
+                        }
+                    case 3:
+                        {
+                            document.getElementById("bigformula").innerHTML=bf43;
+                            break;
+                        }
+                    case 4:
+                        {
+                            document.getElementById("bigformula").innerHTML=bf44;
+                            break;
+                        }
+                }
+            break;
+            }
+            case 5:
+            {
+                switch(place)
+                {
+                    case 1:
+                        {
+                            document.getElementById("bigformula").innerHTML=bf51;
+                            break;
+                        }
+                    case 2:
+                        {
+                            document.getElementById("bigformula").innerHTML=bf52;
+                            break;
+                        }
+                    case 3:
+                        {
+                            document.getElementById("bigformula").innerHTML=bf53;
+                            break;
+                        }
+                    case 4:
+                        {
+                            document.getElementById("bigformula").innerHTML=bf54;
+                            break;
+                        }
+                }
+            break;
+            }
+            case 6:
+            {
+                switch(place)
+                {
+                    case 1:
+                        {
+                            document.getElementById("bigformula").innerHTML=bf61;
+                            break;
+                        }
+                    case 2:
+                        {
+                            document.getElementById("bigformula").innerHTML=bf62;
+                            break;
+                        }
+                    case 3:
+                        {
+                            document.getElementById("bigformula").innerHTML=bf63;
+                            break;
+                        }
+                }
+            break;
+            }
+            case 7:
+            {
+                switch(place)
+                {    case 1:
+                        {
+                            document.getElementById("bigformula").innerHTML=bf71;
+                            break;
+                        }
+                    case 2:
+                        {
+                            document.getElementById("bigformula").innerHTML=bf72;
+                            break;
+                        }
+                    case 3:
+                        {
+                            document.getElementById("bigformula").innerHTML=bf73;
+                            break;
+                        }
+                    case 4:
+                        {
+                            document.getElementById("bigformula").innerHTML=bf74;
+                            break;
+                        }
+                    case 5:
+                        {
+                            document.getElementById("bigformula").innerHTML=bf75;
+                            break;
+                        }
+                    case 6:
+                        {
+                            document.getElementById("bigformula").innerHTML=bf76;
+                            break;
+                        }
+                    case 7:
+                        {
+                            document.getElementById("bigformula").innerHTML=bf77;
+                            break;
+                        }
+                    case 8:
+                        {
+                            document.getElementById("bigformula").innerHTML=bf78;
+                            break;
+                        }
+                    case 9:
+                        {
+                            document.getElementById("bigformula").innerHTML=bf79;
                             break;
                         }
                 }
