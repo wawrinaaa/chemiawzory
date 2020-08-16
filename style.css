@@ -63,6 +63,7 @@ article#content
     padding: 50px;
     text-align: center;
     overflow: visible;
+    margin: auto;
 }
 footer
 {
@@ -192,6 +193,10 @@ footer
     {
         font-size: 2em;
     }
+    article#content
+    {
+        margin-left: 3vw;
+    }
 }
 @media only screen and (max-width: 1700px)
 {
@@ -225,6 +230,10 @@ footer
     #bigformula
     {
         font-size: 1.6em;
+    }
+    article#content
+    {
+        margin: 0;
     }
 }
 @media only screen and (max-width: 1270px)
