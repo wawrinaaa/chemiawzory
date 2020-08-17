@@ -43,7 +43,7 @@ let inside4='<div id="formula1" class="formula" onclick="showformula(4, 1)">Stę
 
     let bf41='<span onmouseover="explanation(4, 1, 1);">Kc</span>=<span onmouseover="explanation(4, 1, 2);">[C]<sup>c</sup></span>*<span onmouseover="explanation(4, 1, 3);">[D]<sup>d</sup></span>/(<span onmouseover="explanation(4, 1, 4);">[A]<sup>a</sup></span>*<span onmouseover="explanation(4, 1, 5);">[B]<sup>b</sup></span>)';
 
-    let bf42='nie wiem JESZCZE'; /* FIXME: wzór na ciśnieniową stałą równowagi */
+    let bf42='<span onmouseover="explanation(4, 2, 1);">Kp</span>=[(<span onmouseover="explanation(4, 2, 2);">{pC}<sup>c</sup></span>/<span onmouseover="explanation(4, 2, 3);">p0</span>)*(<span onmouseover="explanation(4, 2, 4);">{pD}<sup>d</sup></span>/<span onmouseover="explanation(4, 2, 3);">p0</span>)]/[(<span onmouseover="explanation(4, 2, 5);">{pA}<sup>a</sup></span>/<span onmouseover="explanation(4, 2, 3);">p0</span>)*(<span onmouseover="explanation(4, 2, 6);">{pB}<sup>b</sup></span>/<span onmouseover="explanation(4, 2, 3);">p0</span>';
 
     let bf43='<span onmouseover="explanation(4, 3, 1);">W</span>=<span onmouseover="explanation(4, 3, 2);">m<sub>p</sub> o.</span>/<span onmouseover="explanation(4, 3, 3);">m<sub>p</sub> s.</span>*100%';
 
@@ -51,41 +51,41 @@ let inside4='<div id="formula1" class="formula" onclick="showformula(4, 1)">Stę
 
 let inside5='<div id="formula1" class="formula" onclick="showformula(5, 1)">Stężenie procentowe masowe</div><div id="formula2" class="formula" onclick="showformula(5, 2)">Stężenie procentowe molowe</div><div id="formula3" class="formula" onclick="showformula(5, 3)">Stężenie molowe</div><div id="formula4" class="formula" onclick="showformula(5, 4)">Stężenie molalne mol/m</div>';
 
-    let bf51='';
+    let bf51='<span onmouseover="explanation(5, 1, 1);">Cp</span>=<span onmouseover="explanation(5, 1, 2);">m<sub>s</sub></span>/<span onmouseover="explanation(5, 1, 3);">m<sub>r</sub></span> *<span onmouseover="explanation(5, 1, 4);">100%</span>';
 
-    let bf52='';
+    let bf52='<span onmouseover="explanation(5, 2, 1);">Cp<sub>m</sub></span>=<span onmouseover="explanation(5, 2, 2);">n<sub>s1</sub></span>/<span onmouseover="explanation(5, 2, 3);">n<sub>s2</sub></span> *<span onmouseover="explanation(5, 2, 4);">100%</span>';
 
-    let bf53='';
+    let bf53='<span onmouseover="explanation(5, 3, 1);">Cm</span>=<span onmouseover="explanation(5, 3, 2);">n<sub>s</sub></span>/<span onmouseover="explanation(5, 3, 3);">V</span>';
 
-    let bf54='';
+    let bf54='<span onmouseover="explanation(5, 4, 1);">C<sub>molalne</sub></span>=<span onmouseover="explanation(5, 4, 2);">n<sub>s</sub></span>/<span onmouseover="explanation(5, 4, 3);">m<sub>rozp.</sub></span>';
 
-let inside6='<div id="formula1" class="formula" onclick="showformula(6, 1)">Ilość wiązań<br>podwójnych/pierścieni</div><div id="formula2" class="formula" onclick="showformula(6, 2)">Skręcalność właściwa</div><div id="formula3" class="formula" onclick="showformula(6, 3)">Maksymalna ilość diastereoizomerów</div>';
+let inside6='<div id="formula1" class="formula" onclick="showformula(6, 1)">Stopień nienasycenia</div><div id="formula2" class="formula" onclick="showformula(6, 2)">Skręcalność właściwa</div><div id="formula3" class="formula" onclick="showformula(6, 3)">Maksymalna ilość diastereoizomerów</div>';
 
-    let bf61='';
+    let bf61='<span onmouseover="explanation(6, 1, 1);">&#945;</span>=(2*<span onmouseover="explanation(6, 1, 2);">n<sub>C</sub></span>+2-<span onmouseover="explanation(6, 1, 3);">n<sub>H</sub></span>-<span onmouseover="explanation(6, 1, 4);">n<sub>X</sub></span>+<span onmouseover="explanation(6, 1, 5);">n<sub>N</sub></span>)/2';
 
-    let bf62='';
+    let bf62='<span onmouseover="explanation(6, 2, 1);">[&#945;]<sub>D</sub></span>=<span onmouseover="explanation(6, 2, 2);">&#945;</span>/(<span onmouseover="explanation(6, 2, 3);">l</span>*<span onmouseover="explanation(6, 2, 4);">c</span>)';
 
-    let bf63='';
+    let bf63='<span onmouseover="explanation(6, 3, 1);">Max. ilość</span>=<br>2<span onmouseover="explanation(6, 3, 2);"><sup>ilość centów chiralności</sup></span>';
 
 let inside7='<div id="formula1" class="formula" onclick="showformula(7, 1)">Szybkość reakcji</div><div id="formula2" class="formula" onclick="showformula(7, 2)">Standartowa entalpia</div><div id="formula3" class="formula" onclick="showformula(7, 3)">Entalpia swobodna</div><div id="formula4" class="formula" onclick="showformula(7, 4)">Entropia</div><div id="formula5" class="formula" onclick="showformula(7, 5)">Równanie Arheniusa</div><div id="formula6" class="formula" onclick="showformula(7, 6)">Równanie kinetyczne 1szego stopnia</div><div id="formula7" class="formula" onclick="showformula(7, 7)">Równanie kinetyczne 2giego stopnia</div><div id="formula8" class="formula" onclick="showformula(7, 8)">Równanie kinetyczne 3ciego stopnia</div><div id="formula9" class="formula" onclick="showformula(7, 9)">Równanie kinetyczne 4tego stopnia</div>';
 
-    let bf71='';
+    let bf71='<span onmouseover="explanation(7, 1, 1);">v</span>=<span onmouseover="explanation(7, 1, 2);">&#916;n<sub>s</sub></span>/<span onmouseover="explanation(7, 1, 3);">t</span>';
 
-    let bf72='';
+    let bf72='<span onmouseover="explanation(7, 2, 1);">&#916;H<sup>0</sup></span>=<span onmouseover="explanation(7, 2, 2);">&#931;&#916;H<sup>0</sup><sub>produktów</sub></span>-<span onmouseover="explanation(7, 2, 3);">&#931;&#916;H<sup>0</sup><sub>substratów</sub></span>';
 
-    let bf73='';
+    let bf73='<span onmouseover="explanation(7, 3, 1);">&#916;G<sup>0</sup></span>=<span onmouseover="explanation(7, 3, 2);">&#916;H<sup>0</sup></span>-<span onmouseover="explanation(7, 3, 3);">T</span>*<span onmouseover="explanation(7, 3, 4);">&#916;S<sup>0</sup></span>';
 
-    let bf74='';
+    let bf74='<span onmouseover="explanation(7, 4, 1);">&#916;S<sup>0</sup></span>=(<span onmouseover="explanation(7, 4, 2);">&#916;G<sup>0</sup></span>-<span onmouseover="explanation(7, 4, 3);">&#916;H<sup>0</sup></span>)/<span onmouseover="explanation(7, 4, 4);">-T</span>';
 
-    let bf75='';
+    let bf75='<span onmouseover="explanation(7, 5, 1);">K</span>=<span onmouseover="explanation(7, 5, 2);">A</span>*<span onmouseover="explanation(7, 5, 3);">e</span><sup>-<span onmouseover="explanation(7, 5, 4);">Ea</span>/(<span onmouseover="explanation(7, 5, 5);">R</span>*<span onmouseover="explanation(7, 5, 6);">T</span>)</sup>';
 
-    let bf76='';
+    let bf76='<span onmouseover="explanation(7, 6, 1);">Ck</span>=<span onmouseover="explanation(7, 6, 2);">Co</span>-<span onmouseover="explanation(7, 6, 3);">k</span>*<span onmouseover="explanation(7, 6, 4);">t</span>';
 
-    let bf77='';
+    let bf77='<span onmouseover="explanation(7, 7, 1);">ln<sub>Ck</sub><span>=<span onmouseover="explanation(7, 7, 2);">ln<sub>Co</sub></span>-<span onmouseover="explanation(7, 7, 3);">k</span>*<span onmouseover="explanation(7, 7, 4);">t</span>';
 
-    let bf78='';
+    let bf78='<span onmouseover="explanation(7, 8, 1);">1/Ck<span>=<span onmouseover="explanation(7, 8, 2);">1/Co</span>+<span onmouseover="explanation(7, 8, 3);">k</span>*<span onmouseover="explanation(7, 8, 4);">t</span>';
 
-    let bf79='';
+    let bf79='<span onmouseover="explanation(7, 9, 1);">1/Ck<sup>2</sup><span>=<span onmouseover="explanation(7, 9, 2);">1/Co<sup>2</sup></span>+2*<span onmouseover="explanation(7, 9, 3);">k</span>*<span onmouseover="explanation(7, 9, 4);">t</span>';
 
 //część właściwa po zmiennych
 
@@ -136,6 +136,7 @@ function execute_formulas(subject)
 
 function showformula(group, place)
 {
+    document.getElementById("bigformula").style.fontSize="3em";
     switch(group)
     {
         case 1:
@@ -255,6 +256,7 @@ function showformula(group, place)
                     case 2:
                         {
                             document.getElementById("bigformula").innerHTML=bf42;
+                            document.getElementById("bigformula").style.fontSize="1em";
                             break;
                         }
                     case 3:
@@ -314,6 +316,7 @@ function showformula(group, place)
                     case 3:
                         {
                             document.getElementById("bigformula").innerHTML=bf63;
+                            document.getElementById("bigformula").style.fontSize="2em";
                             break;
                         }
                 }
@@ -330,6 +333,7 @@ function showformula(group, place)
                     case 2:
                         {
                             document.getElementById("bigformula").innerHTML=bf72;
+                            document.getElementById("bigformula").style.fontSize="2em";
                             break;
                         }
                     case 3:
