@@ -157,6 +157,7 @@ footer
     font-size: 3em;
     font-family: 'Press Start 2P', cursive;
     padding: 150px 0;
+    cursor: default;
 }
 #explanation /* FIXME: naprawić relacje padding - height */
 {
@@ -179,7 +180,10 @@ footer
 {
     background-color: inherit;
 }
-
+span
+{
+    cursor: crosshair !important;
+}
 /* Mniejsze urządzenia SMALLER DEVICES */
 
 @media only screen and (max-width: 1870px)

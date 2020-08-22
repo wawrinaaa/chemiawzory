@@ -2,25 +2,25 @@ let inside1='<div id="formula1" class="formula" onclick="showformula(1, 1)">Mome
 
     let bf11='<span onmouseover="explanation(1, 1, 1);">&#181;</span>=<span onmouseover="explanation(1, 1, 2);">Q</span>*<span onmouseover="explanation(1, 1, 3);">r</span>';
 
-    let bf12='<span onmouseover="explanation(1, 2, 1);">m</span>=<span onmouseover="explanation(1, 2, 2);">k</span>*<span onmouseover="explanation(1, 2, 3);">i</span>*<span onmouseover="explanation(1, 2, 4);">t</span>';
+    let bf12='<span onmouseover="explanation(1, 2, 1);">m</span>=<span onmouseover="explanation(1, 2, 2);">k</span>*<span onmouseover="explanation(1, 2, 3);">I</span>*<span onmouseover="explanation(1, 2, 4);">t</span>';
 
-    let bf13='<span onmouseover="explanation(1, 3, 1);">k</span>=<span onmouseover="explanation(1, 3, 2);">M</span>/(<span onmouseover="explanation(1, 3, 3);">z</span>*<span onmouseover="explanation(1, 3, 4);">f</span>)';
+    let bf13='<span onmouseover="explanation(1, 3, 1);">k</span>=<span onmouseover="explanation(1, 3, 2);">M</span>/(<span onmouseover="explanation(1, 3, 3);">z</span>*<span onmouseover="explanation(1, 3, 4);">F</span>)';
 
     let bf14='<span onmouseover="explanation(1, 4, 1);">EMF</span>=<span onmouseover="explanation(1, 4, 2);">E<sub>k</sub></span>-<span onmouseover="explanation(1, 4, 3);">E<sub>a</sub></span>';
 
 let inside2='<div id="formula1" class="formula" onclick="showformula(2, 1)">pH</div><div id="formula2" class="formula" onclick="showformula(2, 2)">pOH</div><div id="formula3" class="formula" onclick="showformula(2, 3)">przeliczenie<br>pOH na pH</div><div id="formula4" class="formula" onclick="showformula(2, 4)">Stała dysocjacji kwasu</div><div id="formula5" class="formula"  onclick="showformula(2, 5)">Stała dysocjacji zasady</div><div id="formula6" class="formula" onclick="showformula(2, 6)">Stopień dysocjacji<br>(pełny)</div><div id="formula7" class="formula" onclick="showformula(2, 7)">Zasada upraszczania wzoru &uarr;</div><div id="formula8" class="formula" onclick="showformula(2, 8)">Stopień dysocjacji<br>(uproszczony)</div>';
 
-    let bf21='<span onmouseover="explanation(2, 1, 1);">pH</span>=<span onmouseover="explanation(2, 1, 2);">-log<sub>10</sub></span> <span onmouseover="explanation(2, 1, 3);">[H<sup>+</sup>]</span>';
+    let bf21='<span onmouseover="explanation(2, 1, 1);">pH</span>=-log<sub>10</sub> <span onmouseover="explanation(2, 1, 2);">[H<sup>+</sup>]</span>';
 
-    let bf22='<span onmouseover="explanation(2, 2, 1);">pOH</span>=<span onmouseover="explanation(2, 2, 2);">-log<sub>10</sub></span> <span onmouseover="explanation(2, 2, 3);">[OH<sup>-</sup>]</span>';
+    let bf22='<span onmouseover="explanation(2, 2, 1);">pOH</span>=-log<sub>10</sub> <span onmouseover="explanation(2, 2, 2);">[OH<sup>-</sup>]</span>';
     
-    let bf23='<span onmouseover="explanation(2, 3, 1);">pH</span>=<span onmouseover="explanation(2, 3, 2);">14</span>-<span onmouseover="explanation(2, 3, 3);">pOH</span>';
+    let bf23='<span onmouseover="explanation(2, 3, 1);">pH</span>=14-<span onmouseover="explanation(2, 3, 2);">pOH</span>';
     
     let bf24='<span onmouseover="explanation(2, 4, 1);">K<sub>a</sub></span>=<span onmouseover="explanation(2, 4, 2);">[H<sup>+</sup>]</span>*<span onmouseover="explanatio(2, 4, 3);">[R<sup>-</sup>]</span>/<span onmouseover="explanation(2, 4, 4);">[HR]</span>';
     
     let bf25='<span onmouseover="explanation(2, 5, 1);">K<sub>b</sub></span>=<span onmouseover="explanation(2, 5, 2);">[OH<sup>-</sup>]</span>*<span onmouseover="explanation(2, 5, 3);">[M<sup>+</sup>]</span>/<span onmouseover="explanation(2, 5, 4);">[MOH]</span>';
     
-    let bf26='<span onmouseover="explanation(2, 6, 1);">K</span>=<span onmouseover="explanation(2, 6, 2);">Cm</span>*<span onmouseover="explanation(2, 6, 3);">&#945;<sup>2</sup></span>/<span onmouseover="explanation(2, 6, 4);">(1-&#945;)</span>';
+    let bf26='<span onmouseover="explanation(2, 6, 1);">K</span>=<span onmouseover="explanation(2, 6, 2);">Cm</span>*<span onmouseover="explanation(2, 6, 3);">&#945;<sup>2</sup></span>/<span onmouseover="explanation(2, 6, 3);">(1-&#945;)</span>';
     
     let bf27='<span onmouseover="explanation(2, 7, 1);">&#945;</span><5% lub <span onmouseover="explanation(2, 7, 2);">Cm</span>/<span onmouseover="explanation(2, 7, 3);">K</sup></span>>400';
     
@@ -30,7 +30,7 @@ let inside3='<div id="formula1" class="formula" onclick="showformula(3, 1)">Iloc
 
     let bf31='<span onmouseover="explanation(3, 1, 1);">Kso</span>=<span onmouseover="explanation(3, 1, 2);">[M+]<sup>r</sup></span>*<span onmouseover="explanation(3, 1, 3);">[R-]<sup>m</sup></span>/<span onmouseover="explanation(3, 1, 4);">[MR]</span>';
 
-    let bf32='<span onmouseover="explanation(3, 2, 1);">KSo</span>=<span onmouseover="explanation(3, 2, 2);">(rSo)<sup>r</sup></span>*<span onmouseover="explanation(3, 2, 3);">(nR)<sup>n</sup></span>';
+    let bf32='<span onmouseover="explanation(3, 2, 1);">So</span>=<span onmouseover="explanation(3, 2, 2);">(rSo)<sup>r</sup></span>*<span onmouseover="explanation(3, 2, 3);">(nR)<sup>n</sup></span>';
 
     let bf33='<span onmouseover="explanation(3, 3, 1);">Kw</span>=10<sup>-14</sup>';
 
@@ -63,7 +63,7 @@ let inside6='<div id="formula1" class="formula" onclick="showformula(6, 1)">Stop
 
     let bf61='<span onmouseover="explanation(6, 1, 1);">&#945;</span>=(2*<span onmouseover="explanation(6, 1, 2);">n<sub>C</sub></span>+2-<span onmouseover="explanation(6, 1, 3);">n<sub>H</sub></span>-<span onmouseover="explanation(6, 1, 4);">n<sub>X</sub></span>+<span onmouseover="explanation(6, 1, 5);">n<sub>N</sub></span>)/2';
 
-    let bf62='<span onmouseover="explanation(6, 2, 1);">[&#945;]<sub>D</sub></span>=<span onmouseover="explanation(6, 2, 2);">&#945;</span>/(<span onmouseover="explanation(6, 2, 3);">l</span>*<span onmouseover="explanation(6, 2, 4);">c</span>)';
+    let bf62='<span onmouseover="explanation(6, 2, 1);">[&#945;]<sub>D</sub></span>=<span onmouseover="explanation(6, 2, 2);">&#945;</span>/(l*<span onmouseover="explanation(6, 2, 3);">c</span>)';
 
     let bf63='<span onmouseover="explanation(6, 3, 1);">Max. ilość</span>=<br>2<span onmouseover="explanation(6, 3, 2);"><sup>ilość centów chiralności</sup></span>';
 
@@ -81,11 +81,31 @@ let inside7='<div id="formula1" class="formula" onclick="showformula(7, 1)">Szyb
 
     let bf76='<span onmouseover="explanation(7, 6, 1);">Ck</span>=<span onmouseover="explanation(7, 6, 2);">Co</span>-<span onmouseover="explanation(7, 6, 3);">k</span>*<span onmouseover="explanation(7, 6, 4);">t</span>';
 
-    let bf77='<span onmouseover="explanation(7, 7, 1);">ln<sub>Ck</sub><span>=<span onmouseover="explanation(7, 7, 2);">ln<sub>Co</sub></span>-<span onmouseover="explanation(7, 7, 3);">k</span>*<span onmouseover="explanation(7, 7, 4);">t</span>';
+    let bf77='<span onmouseover="explanation(7, 7, 1);">ln<sub>Ck</sub></span>=<span onmouseover="explanation(7, 7, 2);">ln<sub>Co</sub></span>-<span onmouseover="explanation(7, 7, 3);">k</span>*<span onmouseover="explanation(7, 7, 4);">t</span>';
 
-    let bf78='<span onmouseover="explanation(7, 8, 1);">1/Ck<span>=<span onmouseover="explanation(7, 8, 2);">1/Co</span>+<span onmouseover="explanation(7, 8, 3);">k</span>*<span onmouseover="explanation(7, 8, 4);">t</span>';
+    let bf78='<span onmouseover="explanation(7, 8, 1);">1/Ck</span>=<span onmouseover="explanation(7, 8, 2);">1/Co</span>+<span onmouseover="explanation(7, 8, 3);">k</span>*<span onmouseover="explanation(7, 8, 4);">t</span>';
 
-    let bf79='<span onmouseover="explanation(7, 9, 1);">1/Ck<sup>2</sup><span>=<span onmouseover="explanation(7, 9, 2);">1/Co<sup>2</sup></span>+2*<span onmouseover="explanation(7, 9, 3);">k</span>*<span onmouseover="explanation(7, 9, 4);">t</span>';
+    let bf79='<span onmouseover="explanation(7, 9, 1);">1/Ck<sup>2</sup></span>=<span onmouseover="explanation(7, 9, 2);">1/Co<sup>2</sup></span>+2*<span onmouseover="explanation(7, 9, 3);">k</span>*<span onmouseover="explanation(7, 9, 4);">t</span>';
+
+//zmienne wyjaśniające litery we wzorach
+
+let ex111='&#181; (czyt. "mi"). - litera z greckiego alfabetu. W chemii &#181; oznacza moment dipolowy i podaje się ją w C*m (culombach * metr) , a czasami przelicza się na D (debaje)';
+let ex112='Q - określa ładunek elektryczny, który powoduje występowanie momentu dipolowego. Podaje się go w culombach (C)';
+let ex113='r - długość wiązania podawana w metrach';
+
+let ex121='m - masa substancji podawana w gramach';
+let ex122='k - równoważnik elektrolizy liczony ze wzoru poniżej. Jego jednostka to C*mol*g<sup>-1</sup>';
+let ex123='I - natężenie prądu użytego do elektrolizy podawane w amperach (A)';
+let ex124='t - czas elektrolizy podany w sekundach';
+
+let ex131='k - równoważnik elektrolizy używany we wzorze powyżej. Jego jednostka to C*mol*g<sup>-1</sup>';
+let ex132='M - masa molowa substacji poddawanej elektrolizie';
+let ex133='Z - ilość elektronów biorąca udział w utlenieniu/redukcji. Wartość ta nie ma swojej jednostki';
+let ex134='F - stała Faradaya. Wynosi 96500 C/mol. Jest to ładunek jednego mola elektronów';
+
+let ex141='EMF - siła elektromotoryczna ogniwa podawana w woltach (V)';
+let ex142='E<sub>k</sub> - potencjał elektryczny katody. Można sprawdzić w szeregu napięciowym metali';
+let ex143='E<sub>a</sub> - potencjał elektryczny anody. Można sprawdzić w szeregu napięciowym metali';
 
 //część właściwa po zmiennych
 
@@ -376,3 +396,928 @@ function showformula(group, place)
             }
     }
 }
+function explanation(group, formulanr, letter)
+{
+    switch(group)
+    {
+        case 1:
+            {
+                switch(formulanr)
+                {
+                    case 1: 
+                    {
+                       switch(letter)
+                       {
+                            case 1:
+                                {
+                                    document.getElementById("explanation").innerHTML=ex111;
+                                    break;
+                                }
+                            case 2:
+                                {
+                                    document.getElementById("explanation").innerHTML=ex112;
+                                    break;
+                                }
+                            case 3:
+                                {
+                                    document.getElementById("explanation").innerHTML=ex113;
+                                    break;
+                                }
+                       } 
+                    }break;
+                    case 2: 
+                    {
+                       switch(letter)
+                       {
+                            case 1:
+                                {
+                                    document.getElementById("explanation").innerHTML=ex121;
+                                    break;
+                                }
+                            case 2:
+                                {
+                                    document.getElementById("explanation").innerHTML=ex122;
+                                    break;
+                                }
+                            case 3:
+                                {
+                                    document.getElementById("explanation").innerHTML=ex123;
+                                    break;
+                                }
+                            case 4:
+                                {
+                                    document.getElementById("explanation").innerHTML=ex124;
+                                    break;
+                                }
+                       } 
+                    }break;
+                    case 3: 
+                    {
+                       switch(letter)
+                       {
+                            case 1:
+                                {
+                                    document.getElementById("explanation").innerHTML=ex131;
+                                    break;
+                                }
+                            case 2:
+                                {
+                                    document.getElementById("explanation").innerHTML=ex132;
+                                    break;
+                                }
+                            case 3:
+                                {
+                                    document.getElementById("explanation").innerHTML=ex133;
+                                    break;
+                                }
+                            case 4:
+                                {
+                                    document.getElementById("explanation").innerHTML=ex134;
+                                    break;
+                                }
+                       } 
+                    }break;
+                    case 4: 
+                    {
+                       switch(letter)
+                       {
+                            case 1:
+                                {
+                                    document.getElementById("explanation").innerHTML=ex141;
+                                    break;
+                                }
+                            case 2:
+                                {
+                                    document.getElementById("explanation").innerHTML=ex142;
+                                    break;
+                                }
+                            case 3:
+                                {
+                                    document.getElementById("explanation").innerHTML=ex143;
+                                    break;
+                                }
+                       } 
+                    }break;
+                }break;
+            }
+            case 2:
+                {
+                    switch(formulanr)
+                    {
+                        case 1: 
+                        {
+                           switch(letter)
+                           {
+                                case 1:
+                                    {
+                                        document.getElementById("explanation").innerHTML=ex211;
+                                        break;
+                                    }
+                                case 2:
+                                    {
+                                        document.getElementById("explanation").innerHTML=ex212;
+                                        break;
+                                    }
+                           } 
+                        }break;
+                        case 2: 
+                        {
+                           switch(letter)
+                           {
+                                case 1:
+                                    {
+                                        document.getElementById("explanation").innerHTML=ex221;
+                                        break;
+                                    }
+                                case 2:
+                                    {
+                                        document.getElementById("explanation").innerHTML=ex222;
+                                        break;
+                                    }
+                           } 
+                        }break;
+                        case 3: 
+                        {
+                           switch(letter)
+                           {
+                                case 1:
+                                    {
+                                        document.getElementById("explanation").innerHTML=ex231;
+                                        break;
+                                    }
+                                case 2:
+                                    {
+                                        document.getElementById("explanation").innerHTML=ex232;
+                                        break;
+                                    }
+                           } 
+                        }break;
+                        case 4: 
+                        {
+                           switch(letter)
+                           {
+                                case 1:
+                                    {
+                                        document.getElementById("explanation").innerHTML=ex241;
+                                        break;
+                                    }
+                                case 2:
+                                    {
+                                        document.getElementById("explanation").innerHTML=ex242;
+                                        break;
+                                    }
+                                case 3:
+                                    {
+                                        document.getElementById("explanation").innerHTML=ex243;
+                                        break;
+                                    }
+                                case 4:
+                                    {
+                                        document.getElementById("explanation").innerHTML=ex244;
+                                        break;
+                                    }
+                           } 
+                        }break;
+                        case 5: 
+                        {
+                           switch(letter)
+                           {
+                                case 1:
+                                    {
+                                        document.getElementById("explanation").innerHTML=ex251;
+                                        break;
+                                    }
+                                case 2:
+                                    {
+                                        document.getElementById("explanation").innerHTML=ex252;
+                                        break;
+                                    }
+                                case 3:
+                                    {
+                                        document.getElementById("explanation").innerHTML=ex253;
+                                        break;
+                                    }
+                                case 4:
+                                    {
+                                        document.getElementById("explanation").innerHTML=ex254;
+                                        break;
+                                    }
+                           } 
+                        }break;
+                        case 6: 
+                        {
+                           switch(letter)
+                           {
+                                case 1:
+                                    {
+                                        document.getElementById("explanation").innerHTML=ex261;
+                                        break;
+                                    }
+                                case 2:
+                                    {
+                                        document.getElementById("explanation").innerHTML=ex262;
+                                        break;
+                                    }
+                                case 3:
+                                    {
+                                        document.getElementById("explanation").innerHTML=ex263;
+                                        break;
+                                    }
+                           } 
+                        }break;
+                        case 7: 
+                        {
+                           switch(letter)
+                           {
+                                case 1:
+                                    {
+                                        document.getElementById("explanation").innerHTML=ex271;
+                                        break;
+                                    }
+                                case 2:
+                                    {
+                                        document.getElementById("explanation").innerHTML=ex272;
+                                        break;
+                                    }
+                                case 3:
+                                    {
+                                        document.getElementById("explanation").innerHTML=ex273;
+                                        break;
+                                    }
+                           } 
+                        }break;
+                        case 8: 
+                        {
+                           switch(letter)
+                           {
+                                case 1:
+                                    {
+                                        document.getElementById("explanation").innerHTML=ex281;
+                                        break;
+                                    }
+                                case 2:
+                                    {
+                                        document.getElementById("explanation").innerHTML=ex282;
+                                        break;
+                                    }
+                                case 3:
+                                    {
+                                        document.getElementById("explanation").innerHTML=ex283;
+                                        break;
+                                    }
+                           } 
+                        }break;
+                    }break;
+                }
+            case 3:
+                {
+                    switch(formulanr)
+                        {
+                        case 1: 
+                        {
+                           switch(letter)
+                           {
+                                case 1:
+                                    {
+                                        document.getElementById("explanation").innerHTML=ex311;
+                                        break;
+                                    }
+                                case 2:
+                                    {
+                                        document.getElementById("explanation").innerHTML=ex312;
+                                        break;
+                                    }
+                                case 3:
+                                    {
+                                        document.getElementById("explanation").innerHTML=ex313;
+                                        break;
+                                    }
+                                case 4:
+                                    {
+                                        document.getElementById("explanation").innerHTML=ex314;
+                                        break;
+                                    }
+                           } 
+                        }break;
+                        case 2: 
+                        {
+                               switch(letter)
+                            {
+                                case 1:
+                                    {
+                                        document.getElementById("explanation").innerHTML=ex321;
+                                        break;
+                                    }
+                                case 2:
+                                    {
+                                        document.getElementById("explanation").innerHTML=ex322;
+                                        break;
+                                    }
+                                case 3:
+                                    {
+                                        document.getElementById("explanation").innerHTML=ex323;
+                                        break;
+                                    }
+                           } 
+                        }break;
+                        case 3: 
+                        {
+                           switch(letter)
+                           {
+                                case 1:
+                                    {
+                                        document.getElementById("explanation").innerHTML=ex331;
+                                        break;
+                                    }
+                           } 
+                        }break;
+                        case 4: 
+                        {
+                           switch(letter)
+                           {
+                                case 1:
+                                    {
+                                        document.getElementById("explanation").innerHTML=ex341;
+                                        break;
+                                    }
+                                case 2:
+                                    {
+                                        document.getElementById("explanation").innerHTML=ex342;
+                                        break;
+                                    }
+                                case 3:
+                                    {
+                                        document.getElementById("explanation").innerHTML=ex343;
+                                        break;
+                                    }
+                                case 4:
+                                    {
+                                        document.getElementById("explanation").innerHTML=ex344;
+                                        break;
+                                    }
+                           } 
+                        }break;
+                        case 5: 
+                        {
+                            switch(letter)
+                           {
+                                case 1:
+                                    {
+                                        document.getElementById("explanation").innerHTML=ex351;
+                                        break;
+                                    }
+                                case 2:
+                                    {
+                                        document.getElementById("explanation").innerHTML=ex352;
+                                        break;
+                                    }
+                                case 3:
+                                    {
+                                        document.getElementById("explanation").innerHTML=ex353;
+                                        break;
+                                    }
+                                case 4:
+                                    {
+                                        document.getElementById("explanation").innerHTML=ex354;
+                                        break;
+                                    }
+                           } 
+                        }break;
+                
+                    }break;
+                }
+                case 4:
+                    {
+                        switch(formulanr)
+                            {
+                            case 1: 
+                            {
+                               switch(letter)
+                               {
+                                    case 1:
+                                        {
+                                            document.getElementById("explanation").innerHTML=ex411;
+                                            break;
+                                        }
+                                    case 2:
+                                        {
+                                            document.getElementById("explanation").innerHTML=ex412;
+                                            break;
+                                        }
+                                    case 3:
+                                        {
+                                            document.getElementById("explanation").innerHTML=ex413;
+                                            break;
+                                        }
+                                    case 4:
+                                        {
+                                            document.getElementById("explanation").innerHTML=ex414;
+                                            break;
+                                        }
+                                    case 5:
+                                        {
+                                            document.getElementById("explanation").innerHTML=ex415;
+                                            break;
+                                        }
+                               } 
+                            }break;
+                            case 2: 
+                            {
+                                   switch(letter)
+                                {
+                                    case 1:
+                                        {
+                                            document.getElementById("explanation").innerHTML=ex421;
+                                            break;
+                                        }
+                                    case 2:
+                                        {
+                                            document.getElementById("explanation").innerHTML=ex422;
+                                            break;
+                                        }
+                                    case 3:
+                                        {
+                                            document.getElementById("explanation").innerHTML=ex423;
+                                            break;
+                                        }
+                                    case 4:
+                                        {
+                                            document.getElementById("explanation").innerHTML=ex424;
+                                            break;
+                                        }
+                                    case 5:
+                                        {
+                                            document.getElementById("explanation").innerHTML=ex425;
+                                            break;
+                                        }
+                                    case 6:
+                                        {
+                                            document.getElementById("explanation").innerHTML=ex425;
+                                            break;
+                                        }
+                                        
+                               } 
+                            }break;
+                            case 3: 
+                            {
+                               switch(letter)
+                               {
+                                    case 1:
+                                        {
+                                            document.getElementById("explanation").innerHTML=ex431;
+                                            break;
+                                        }
+                                    case 2:
+                                        {
+                                            document.getElementById("explanation").innerHTML=ex432;
+                                            break;
+                                        }
+                                    case 3:
+                                        {
+                                            document.getElementById("explanation").innerHTML=ex433;
+                                            break;
+                                        }
+                               } 
+                            }break;
+                            case 4: 
+                            {
+                               switch(letter)
+                               {
+                                    case 1:
+                                        {
+                                            document.getElementById("explanation").innerHTML=ex441;
+                                            break;
+                                        }
+                                    case 2:
+                                        {
+                                            document.getElementById("explanation").innerHTML=ex442;
+                                            break;
+                                        }
+                                    case 3:
+                                        {
+                                            document.getElementById("explanation").innerHTML=ex443;
+                                            break;
+                                        }
+                                    case 4:
+                                        {
+                                            document.getElementById("explanation").innerHTML=ex444;
+                                            break;
+                                        }
+                                    case 5:
+                                        {
+                                            document.getElementById("explanation").innerHTML=ex445;
+                                            break;
+                                        }
+                               } 
+                            } break;
+                            }
+                    
+                        }break;
+
+                        case 5:
+                {
+                    switch(formulanr)
+                        {
+                        case 1: 
+                        {
+                           switch(letter)
+                           {
+                                case 1:
+                                    {
+                                        document.getElementById("explanation").innerHTML=ex511;
+                                        break;
+                                    }
+                                case 2:
+                                    {
+                                        document.getElementById("explanation").innerHTML=ex512;
+                                        break;
+                                    }
+                                case 3:
+                                    {
+                                        document.getElementById("explanation").innerHTML=ex513;
+                                        break;
+                                    }
+                           } 
+                        }break;
+                        case 2: 
+                        {
+                               switch(letter)
+                            {
+                                case 1:
+                                    {
+                                        document.getElementById("explanation").innerHTML=ex521;
+                                        break;
+                                    }
+                                case 2:
+                                    {
+                                        document.getElementById("explanation").innerHTML=ex522;
+                                        break;
+                                    }
+                                case 3:
+                                    {
+                                        document.getElementById("explanation").innerHTML=ex523;
+                                        break;
+                                    }
+                           } 
+                        }break;
+                        case 3: 
+                        {
+                            switch(letter)
+                            {
+                                case 1:
+                                    {
+                                        document.getElementById("explanation").innerHTML=ex531;
+                                        break;
+                                    }
+                                case 2:
+                                    {
+                                        document.getElementById("explanation").innerHTML=ex532;
+                                        break;
+                                    }
+                                case 3:
+                                    {
+                                        document.getElementById("explanation").innerHTML=ex533;
+                                        break;
+                                    }
+                           } 
+                        }break;
+                        case 4: 
+                        {
+                           switch(letter)
+                           {
+                                case 1:
+                                    {
+                                        document.getElementById("explanation").innerHTML=ex541;
+                                        break;
+                                    }
+                                case 2:
+                                    {
+                                        document.getElementById("explanation").innerHTML=ex542;
+                                        break;
+                                    }
+                                case 3:
+                                    {
+                                        document.getElementById("explanation").innerHTML=ex543;
+                                        break;
+                                    }
+                           } 
+                        }break;
+                    }
+        
+    break;}
+    case 6:
+        {
+            switch(formulanr)
+                {
+                case 1: 
+                {
+                   switch(letter)
+                   {
+                        case 1:
+                            {
+                                document.getElementById("explanation").innerHTML=ex611;
+                                break;
+                            }
+                        case 2:
+                            {
+                                document.getElementById("explanation").innerHTML=ex612;
+                                break;
+                            }
+                        case 3:
+                            {
+                                document.getElementById("explanation").innerHTML=ex613;
+                                break;
+                            }
+                            case 4:
+                            {
+                                document.getElementById("explanation").innerHTML=ex614;
+                                break;
+                            }
+                            case 5:
+                            {
+                                document.getElementById("explanation").innerHTML=ex615;
+                                break;
+                            }
+                   } 
+                }break;
+                case 2: 
+                {
+                       switch(letter)
+                    {
+                        case 1:
+                            {
+                                document.getElementById("explanation").innerHTML=ex621;
+                                break;
+                            }
+                        case 2:
+                            {
+                                document.getElementById("explanation").innerHTML=ex622;
+                                break;
+                            }
+                        case 3:
+                            {
+                                document.getElementById("explanation").innerHTML=ex623;
+                                break;
+                            }
+                   } 
+                }break;
+                case 3: 
+                {
+                    switch(letter)
+                    {
+                        case 1:
+                            {
+                                document.getElementById("explanation").innerHTML=ex631;
+                                break;
+                            }
+                        case 2:
+                            {
+                                document.getElementById("explanation").innerHTML=ex632;
+                                break;
+                            }
+                   } 
+                }break;
+            }
+
+break;}
+case 8:
+    {
+        switch(formulanr)
+        {
+            case 1: 
+            {
+               switch(letter)
+               {
+                    case 1:
+                        {
+                            document.getElementById("explanation").innerHTML=ex811;
+                            break;
+                        }
+                    case 2:
+                        {
+                            document.getElementById("explanation").innerHTML=ex812;
+                            break;
+                        }
+                        case 3:
+                        {
+                            document.getElementById("explanation").innerHTML=ex813;
+                            break;
+                        }
+               } 
+            }break;
+            case 2: 
+            {
+               switch(letter)
+               {
+                    case 1:
+                        {
+                            document.getElementById("explanation").innerHTML=ex821;
+                            break;
+                        }
+                    case 2:
+                        {
+                            document.getElementById("explanation").innerHTML=ex822;
+                            break;
+                        }
+                        case 3:
+                        {
+                            document.getElementById("explanation").innerHTML=e813;
+                            break;
+                        }
+               } 
+            }break;
+            case 3: 
+            {
+               switch(letter)
+               {
+                    case 1:
+                        {
+                            document.getElementById("explanation").innerHTML=ex831;
+                            break;
+                        }
+                    case 2:
+                        {
+                            document.getElementById("explanation").innerHTML=ex832;
+                            break;
+                        }
+                        case 3:
+                            {
+                                document.getElementById("explanation").innerHTML=ex833;
+                                break;
+                            }
+                        case 4:
+                            {
+                                document.getElementById("explanation").innerHTML=ex834;
+                                break;
+                            }
+               } 
+            }break;
+            case 4: 
+            {
+               switch(letter)
+               {
+                    case 1:
+                        {
+                            document.getElementById("explanation").innerHTML=ex841;
+                            break;
+                        }
+                    case 2:
+                        {
+                            document.getElementById("explanation").innerHTML=ex842;
+                            break;
+                        }
+                    case 3:
+                        {
+                            document.getElementById("explanation").innerHTML=ex843;
+                            break;
+                        }
+                    case 4:
+                        {
+                            document.getElementById("explanation").innerHTML=ex844;
+                            break;
+                        }
+               } 
+            }break;
+            case 5: 
+            {
+               switch(letter)
+               {
+                    case 1:
+                        {
+                            document.getElementById("explanation").innerHTML=ex851;
+                            break;
+                        }
+                    case 2:
+                        {
+                            document.getElementById("explanation").innerHTML=ex852;
+                            break;
+                        }
+                    case 3:
+                        {
+                            document.getElementById("explanation").innerHTML=ex853;
+                            break;
+                        }
+                    case 4:
+                        {
+                            document.getElementById("explanation").innerHTML=ex854;
+                            break;
+                        }
+                        case 5:
+                        {
+                            document.getElementById("explanation").innerHTML=ex855;
+                            break;
+                        }
+                    case 6:
+                        {
+                            document.getElementById("explanation").innerHTML=ex856;
+                            break;
+                        }
+               } 
+            }break;
+            case 6: 
+            {
+               switch(letter)
+               {
+                    case 1:
+                        {
+                            document.getElementById("explanation").innerHTML=ex861;
+                            break;
+                        }
+                    case 2:
+                        {
+                            document.getElementById("explanation").innerHTML=ex862;
+                            break;
+                        }
+                    case 3:
+                        {
+                            document.getElementById("explanation").innerHTML=ex863;
+                            break;
+                        }
+                        case 4:
+                        {
+                            document.getElementById("explanation").innerHTML=ex864;
+                            break;
+                        }
+               } 
+            }break;
+            case 7: 
+            {
+               switch(letter)
+               {
+                    case 1:
+                        {
+                            document.getElementById("explanation").innerHTML=ex871;
+                            break;
+                        }
+                    case 2:
+                        {
+                            document.getElementById("explanation").innerHTML=ex872;
+                            break;
+                        }
+                    case 3:
+                        {
+                            document.getElementById("explanation").innerHTML=ex873;
+                            break;
+                        }
+                        case 4:
+                        {
+                            document.getElementById("explanation").innerHTML=ex874;
+                            break;
+                        }
+               } 
+            }break;
+            case 8: 
+            {
+               switch(letter)
+               {
+                    case 1:
+                        {
+                            document.getElementById("explanation").innerHTML=ex881;
+                            break;
+                        }
+                    case 2:
+                        {
+                            document.getElementById("explanation").innerHTML=ex882;
+                            break;
+                        }
+                    case 3:
+                        {
+                            document.getElementById("explanation").innerHTML=ex883;
+                            break;
+                        }
+                        case 4:
+                        {
+                            document.getElementById("explanation").innerHTML=ex884;
+                            break;
+                        }
+               } 
+            }
+            case 9: 
+            {
+               switch(letter)
+               {
+                    case 1:
+                        {
+                            document.getElementById("explanation").innerHTML=ex898;
+                            break;
+                        }
+                    case 2:
+                        {
+                            document.getElementById("explanation").innerHTML=ex892;
+                            break;
+                        }
+                    case 3:
+                        {
+                            document.getElementById("explanation").innerHTML=ex893;
+                            break;
+                        }
+                        case 4:
+                        {
+                            document.getElementById("explanation").innerHTML=ex894;
+                            break;
+                        }
+               } 
+            }break;
+        }break;
+    }
+    }}
