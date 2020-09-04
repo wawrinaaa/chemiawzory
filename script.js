@@ -120,6 +120,30 @@ let ex623 = 'C - stężenie procentowe enencjomeru'; //TODO: jakie stężenie
 let ex631 = 'Maksymalna ilość. Nie muszą występować wszystkie jeśli pojawią się diastereoizomery mezo';
 let ex632 = 'Diastereoizomery - izomery optyczne (Konfiguracje R,S lub D,L)';
 
+let ex711 = '';
+let ex712 = '';
+let ex713 = '';
+
+let ex721 = '';
+let ex722 = '';
+let ex723 = '';
+
+let ex731 = '';
+let ex732 = '';
+let ex733 = '';
+let ex734 = '';
+
+let ex741 = '';
+let ex742 = '';
+let ex743 = '';
+let ex744 = '';
+
+let ex751 = '';
+let ex752 = '';
+let ex753 = '';
+let ex754 = '';
+let ex755 = '';
+let ex756 = '';
 
 //część właściwa po zmiennych
 
@@ -394,6 +418,7 @@ function showformula(group, place) {
                     case 9:
                         {
                             document.getElementById("bigformula").innerHTML = bf79;
+                            document.getElementById("bigformula").style.fontSize = "1em";
                             break;
                         }
                 }
@@ -1092,17 +1117,17 @@ function explanation(group, formulanr, letter) {
                             switch (letter) {
                                 case 1:
                                     {
-                                        document.getElementById("explanation").innerHTML = ex811;
+                                        document.getElementById("explanation").innerHTML = ex711;
                                         break;
                                     }
                                 case 2:
                                     {
-                                        document.getElementById("explanation").innerHTML = ex812;
+                                        document.getElementById("explanation").innerHTML = ex712;
                                         break;
                                     }
                                 case 3:
                                     {
-                                        document.getElementById("explanation").innerHTML = ex813;
+                                        document.getElementById("explanation").innerHTML = ex713;
                                         break;
                                     }
                             }
@@ -1113,17 +1138,17 @@ function explanation(group, formulanr, letter) {
                             switch (letter) {
                                 case 1:
                                     {
-                                        document.getElementById("explanation").innerHTML = ex821;
+                                        document.getElementById("explanation").innerHTML = ex721;
                                         break;
                                     }
                                 case 2:
                                     {
-                                        document.getElementById("explanation").innerHTML = ex822;
+                                        document.getElementById("explanation").innerHTML = ex722;
                                         break;
                                     }
                                 case 3:
                                     {
-                                        document.getElementById("explanation").innerHTML = e813;
+                                        document.getElementById("explanation").innerHTML = ex713;
                                         break;
                                     }
                             }
@@ -1134,22 +1159,22 @@ function explanation(group, formulanr, letter) {
                             switch (letter) {
                                 case 1:
                                     {
-                                        document.getElementById("explanation").innerHTML = ex831;
+                                        document.getElementById("explanation").innerHTML = ex731;
                                         break;
                                     }
                                 case 2:
                                     {
-                                        document.getElementById("explanation").innerHTML = ex832;
+                                        document.getElementById("explanation").innerHTML = ex732;
                                         break;
                                     }
                                 case 3:
                                     {
-                                        document.getElementById("explanation").innerHTML = ex833;
+                                        document.getElementById("explanation").innerHTML = ex733;
                                         break;
                                     }
                                 case 4:
                                     {
-                                        document.getElementById("explanation").innerHTML = ex834;
+                                        document.getElementById("explanation").innerHTML = ex734;
                                         break;
                                     }
                             }
@@ -1160,22 +1185,22 @@ function explanation(group, formulanr, letter) {
                             switch (letter) {
                                 case 1:
                                     {
-                                        document.getElementById("explanation").innerHTML = ex841;
+                                        document.getElementById("explanation").innerHTML = ex741;
                                         break;
                                     }
                                 case 2:
                                     {
-                                        document.getElementById("explanation").innerHTML = ex842;
+                                        document.getElementById("explanation").innerHTML = ex742;
                                         break;
                                     }
                                 case 3:
                                     {
-                                        document.getElementById("explanation").innerHTML = ex843;
+                                        document.getElementById("explanation").innerHTML = ex743;
                                         break;
                                     }
                                 case 4:
                                     {
-                                        document.getElementById("explanation").innerHTML = ex844;
+                                        document.getElementById("explanation").innerHTML = ex744;
                                         break;
                                     }
                             }
@@ -1186,32 +1211,32 @@ function explanation(group, formulanr, letter) {
                             switch (letter) {
                                 case 1:
                                     {
-                                        document.getElementById("explanation").innerHTML = ex851;
+                                        document.getElementById("explanation").innerHTML = ex751;
                                         break;
                                     }
                                 case 2:
                                     {
-                                        document.getElementById("explanation").innerHTML = ex852;
+                                        document.getElementById("explanation").innerHTML = ex752;
                                         break;
                                     }
                                 case 3:
                                     {
-                                        document.getElementById("explanation").innerHTML = ex853;
+                                        document.getElementById("explanation").innerHTML = ex753;
                                         break;
                                     }
                                 case 4:
                                     {
-                                        document.getElementById("explanation").innerHTML = ex854;
+                                        document.getElementById("explanation").innerHTML = ex754;
                                         break;
                                     }
                                 case 5:
                                     {
-                                        document.getElementById("explanation").innerHTML = ex855;
+                                        document.getElementById("explanation").innerHTML = ex755;
                                         break;
                                     }
                                 case 6:
                                     {
-                                        document.getElementById("explanation").innerHTML = ex856;
+                                        document.getElementById("explanation").innerHTML = ex756;
                                         break;
                                     }
                             }
@@ -1222,22 +1247,22 @@ function explanation(group, formulanr, letter) {
                             switch (letter) {
                                 case 1:
                                     {
-                                        document.getElementById("explanation").innerHTML = ex861;
+                                        document.getElementById("explanation").innerHTML = ex761;
                                         break;
                                     }
                                 case 2:
                                     {
-                                        document.getElementById("explanation").innerHTML = ex862;
+                                        document.getElementById("explanation").innerHTML = ex762;
                                         break;
                                     }
                                 case 3:
                                     {
-                                        document.getElementById("explanation").innerHTML = ex863;
+                                        document.getElementById("explanation").innerHTML = ex763;
                                         break;
                                     }
                                 case 4:
                                     {
-                                        document.getElementById("explanation").innerHTML = ex864;
+                                        document.getElementById("explanation").innerHTML = ex764;
                                         break;
                                     }
                             }
@@ -1248,22 +1273,22 @@ function explanation(group, formulanr, letter) {
                             switch (letter) {
                                 case 1:
                                     {
-                                        document.getElementById("explanation").innerHTML = ex871;
+                                        document.getElementById("explanation").innerHTML = ex771;
                                         break;
                                     }
                                 case 2:
                                     {
-                                        document.getElementById("explanation").innerHTML = ex872;
+                                        document.getElementById("explanation").innerHTML = ex772;
                                         break;
                                     }
                                 case 3:
                                     {
-                                        document.getElementById("explanation").innerHTML = ex873;
+                                        document.getElementById("explanation").innerHTML = ex773;
                                         break;
                                     }
                                 case 4:
                                     {
-                                        document.getElementById("explanation").innerHTML = ex874;
+                                        document.getElementById("explanation").innerHTML = ex774;
                                         break;
                                     }
                             }
@@ -1274,22 +1299,22 @@ function explanation(group, formulanr, letter) {
                             switch (letter) {
                                 case 1:
                                     {
-                                        document.getElementById("explanation").innerHTML = ex881;
+                                        document.getElementById("explanation").innerHTML = ex781;
                                         break;
                                     }
                                 case 2:
                                     {
-                                        document.getElementById("explanation").innerHTML = ex882;
+                                        document.getElementById("explanation").innerHTML = ex782;
                                         break;
                                     }
                                 case 3:
                                     {
-                                        document.getElementById("explanation").innerHTML = ex883;
+                                        document.getElementById("explanation").innerHTML = ex783;
                                         break;
                                     }
                                 case 4:
                                     {
-                                        document.getElementById("explanation").innerHTML = ex884;
+                                        document.getElementById("explanation").innerHTML = ex784;
                                         break;
                                     }
                             }
@@ -1299,22 +1324,22 @@ function explanation(group, formulanr, letter) {
                             switch (letter) {
                                 case 1:
                                     {
-                                        document.getElementById("explanation").innerHTML = ex898;
+                                        document.getElementById("explanation").innerHTML = ex798;
                                         break;
                                     }
                                 case 2:
                                     {
-                                        document.getElementById("explanation").innerHTML = ex892;
+                                        document.getElementById("explanation").innerHTML = ex792;
                                         break;
                                     }
                                 case 3:
                                     {
-                                        document.getElementById("explanation").innerHTML = ex893;
+                                        document.getElementById("explanation").innerHTML = ex793;
                                         break;
                                     }
                                 case 4:
                                     {
-                                        document.getElementById("explanation").innerHTML = ex894;
+                                        document.getElementById("explanation").innerHTML = ex794;
                                         break;
                                     }
                             }

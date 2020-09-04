@@ -1,19 +1,15 @@
-body
-{
-    background: url("img/background.png"); /* Background pattern from Toptal Subtle Patterns */
+body {
+    background: url("img/background.png");
+    /* Background pattern from Toptal Subtle Patterns */
     font-family: 'Lato', sans-serif;
     padding: 0;
     margin: 0;
     height: 100%;
 }
-header#mainheader
-{
+
+header#mainheader {
     background: #1b1ac7;
-    text-shadow: 
-    1px 1px #0d2180,
-    -1px 1px #0d2180,
-    1px -1px #0d2180,
-    -1px -1px #0d2180;
+    text-shadow: 1px 1px #0d2180, -1px 1px #0d2180, 1px -1px #0d2180, -1px -1px #0d2180;
     font-size: 2.75em;
     text-align: center;
     padding: 20px 0;
@@ -21,15 +17,15 @@ header#mainheader
     margin-bottom: 10px;
     min-height: 120px;
 }
-header#mainheader p
-{
+
+header#mainheader p {
     font-size: 0.5em;
     text-shadow: none;
     letter-spacing: normal;
     color: #aaa;
 }
-main
-{
+
+main {
     width: 90%;
     box-sizing: border-box;
     height: 75vh;
@@ -39,25 +35,25 @@ main
     overflow: visible;
     text-align: center;
 }
-nav
-{
+
+nav {
     float: left;
     margin: 0;
     vertical-align: middle;
 }
-article#formulas
-{
+
+article#formulas {
     float: left;
     height: 100%;
     overflow: scroll !important;
     text-align: left;
 }
-article::-webkit-scrollbar-corner
-{
+
+article::-webkit-scrollbar-corner {
     background-color: transparent;
 }
-article#content
-{
+
+article#content {
     float: left;
     width: 50vw;
     padding: 50px;
@@ -65,8 +61,8 @@ article#content
     overflow: visible;
     margin: auto;
 }
-footer
-{
+
+footer {
     background: white;
     box-sizing: border-box;
     width: 100%;
@@ -78,8 +74,8 @@ footer
     height: 45px;
     position: relative;
 }
-.subject
-{
+
+.subject {
     width: 15vw;
     height: 2.63vh;
     background-color: #add8e6;
@@ -90,22 +86,22 @@ footer
     cursor: pointer;
     transition: 0.3s all ease-out;
 }
-.subject:hover
-{
+
+.subject:hover {
     transform: scale(1.25);
     border-top: 1px dashed blue;
 }
-#specialSubject:hover
-{
+
+#specialSubject:hover {
     transform: scale(1.25);
     border-top: none !important;
 }
-.subject:last-child
-{
+
+.subject:last-child {
     border-bottom: none;
 }
-.formula
-{
+
+.formula {
     width: 300px;
     min-height: 10px;
     max-height: 50px;
@@ -119,17 +115,17 @@ footer
     transition: ease-in-out 0.25s all;
     cursor: pointer;
 }
-.formula:hover
-{
+
+.formula:hover {
     background-color: #3c6;
     border-color: #830808;
 }
-.formwrapper
-{
+
+.formwrapper {
     margin-left: 25px;
 }
-.left
-{
+
+.left {
     text-align: left;
     display: block;
     margin-right: 10px;
@@ -137,168 +133,155 @@ footer
     left: 5px;
     bottom: 5px;
 }
-.right
-{
+
+.right {
     text-align: right;
     display: block;
     position: absolute;
     right: 10px;
     bottom: 5px;
 }
-#bigformula
-{
+
+#bigformula {
     border: #7a0000 1px solid;
     width: 100%;
     min-height: 100px;
-    -webkit-box-shadow: 35px 26px 69px 2px rgba(0,0,0,0.75);
-    -moz-box-shadow: 35px 26px 69px 2px rgba(0,0,0,0.75);
-    box-shadow: 35px 26px 69px 2px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 35px 26px 69px 2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 35px 26px 69px 2px rgba(0, 0, 0, 0.75);
+    box-shadow: 35px 26px 69px 2px rgba(0, 0, 0, 0.75);
     text-align: center;
     font-size: 3em;
     font-family: 'Press Start 2P', cursive;
     padding: 150px 0;
     cursor: default;
 }
-#explanation /* FIXME: naprawić relacje padding - height */
-{
+
+#explanation {
     border: #7a0000 1px solid;
     width: 100%;
     margin-top: 30px;
-    min-height: 200px;
-    -webkit-box-shadow: 35px 26px 69px 2px rgba(0,0,0,0.75);
-    -moz-box-shadow: 35px 26px 69px 2px rgba(0,0,0,0.75);
-    box-shadow: 35px 26px 69px 2px rgba(0,0,0,0.75);
+    padding: 70px 0;
+    min-height: 60px;
+    font-size: 16px;
+    -webkit-box-shadow: 35px 26px 69px 2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 35px 26px 69px 2px rgba(0, 0, 0, 0.75);
+    box-shadow: 35px 26px 69px 2px rgba(0, 0, 0, 0.75);
     text-align: center;
     font-family: 'Lato', sans-serif;
+    font-weight: 900;
 }
-.exoformula
-{
+
+.exoformula {
     border: 0;
     cursor: default;
 }
-.exoformula:hover
-{
+
+.exoformula:hover {
     background-color: inherit;
 }
-span
-{
+
+span {
     cursor: crosshair !important;
 }
+
+
 /* Mniejsze urządzenia SMALLER DEVICES */
 
-@media only screen and (max-width: 1870px)
-{
-    article#content
-    {
+@media only screen and (max-width: 1870px) {
+    article#content {
         width: 40vw;
         padding: 40px;
     }
-    #bigformula
-    {
+    #bigformula {
         font-size: 2em;
     }
-    article#content
-    {
+    article#content {
         margin-left: 4vw;
     }
 }
-@media only screen and (max-width: 1700px)
-{
-    .subject
-    {
+
+@media only screen and (max-width: 1700px) {
+    .subject {
         font-size: 1.25em;
     }
-    footer
-    {
+    footer {
         font-size: 1.25em;
     }
-    header#mainheader
-    {
+    header#mainheader {
         font-size: 2.3em;
     }
 }
-@media only screen and (max-width: 1440px)
-{
-    .subject
-    {
+
+@media only screen and (max-width: 1440px) {
+    .subject {
         font-size: 1em;
     }
-    footer
-    {
+    footer {
         font-size: 1em;
     }
-    header#mainheader
-    {
+    header#mainheader {
         font-size: 2em;
     }
-    #bigformula
-    {
+    #bigformula {
         font-size: 1.6em;
     }
-    article#content
-    {
+    article#content {
         margin: 0;
     }
 }
-@media only screen and (max-width: 1270px)
-{
-    article#content
-    {
+
+@media only screen and (max-width: 1270px) {
+    article#content {
         width: 35vw;
         padding: 20px;
         margin-left: 2vw;
     }
-    header#mainheader
-    {
+    header#mainheader {
         font-size: 1.75em;
     }
-    #bigformula
-    {
+    #bigformula {
         font-size: 1em;
     }
-} /* TODO: mobile version for screens < 1070px */
-@media only screen and (max-height: 940px)
-{
-    footer
-    {
+}
+
+
+/* TODO: mobile version for screens < 1070px */
+
+@media only screen and (max-height: 940px) {
+    footer {
         font-size: 1.25em;
     }
 }
-@media only screen and (max-height: 920px)
-{
-    #bigformula
-    {
+
+@media only screen and (max-height: 920px) {
+    #bigformula {
         padding: 100px 0;
     }
 }
-@media only screen and (max-height: 780px)
-{
-    #bigformula
-    {
+
+@media only screen and (max-height: 780px) {
+    #bigformula {
         padding: 85px 0;
-        -webkit-box-shadow: 35px 26px 40px 1px rgba(0,0,0,0.5);
-        -moz-box-shadow: 35px 26px 40px 1px rgba(0,0,0,0.5);
-        box-shadow: 35px 26px 40px 1px rgba(0,0,0,0.5);
+        -webkit-box-shadow: 35px 26px 40px 1px rgba(0, 0, 0, 0.5);
+        -moz-box-shadow: 35px 26px 40px 1px rgba(0, 0, 0, 0.5);
+        box-shadow: 35px 26px 40px 1px rgba(0, 0, 0, 0.5);
         font-size: 2em;
         height: 30px;
     }
-    #explanation
-    {
+    #explanation {
         margin-top: 15px;
-        -webkit-box-shadow: 35px 26px 40px 1px rgba(0,0,0,0.5);
-        -moz-box-shadow: 35px 26px 40px 1px rgba(0,0,0,0.5);
-        box-shadow: 35px 26px 40px 1px rgba(0,0,0,0.5);
+        -webkit-box-shadow: 35px 26px 40px 1px rgba(0, 0, 0, 0.5);
+        -moz-box-shadow: 35px 26px 40px 1px rgba(0, 0, 0, 0.5);
+        box-shadow: 35px 26px 40px 1px rgba(0, 0, 0, 0.5);
     }
 }
-@media only screen and (max-height: 700px)
-{
-    article#content
-    {
+
+@media only screen and (max-height: 700px) {
+    article#content {
         padding-top: 10px;
         padding-left: 10px;
     }
-    main
-    {
+    main {
         overflow: scroll;
     }
 }
