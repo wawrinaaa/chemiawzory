@@ -120,30 +120,32 @@ let ex623 = 'C - stężenie procentowe enencjomeru'; //TODO: jakie stężenie
 let ex631 = 'Maksymalna ilość. Nie muszą występować wszystkie jeśli pojawią się diastereoizomery mezo';
 let ex632 = 'Diastereoizomery - izomery optyczne (Konfiguracje R,S lub D,L)';
 
-let ex711 = '';
-let ex712 = '';
-let ex713 = '';
+let ex711 = 'v - szybkość reakcji, czyli szybkość przybywania produktów i ubywania substratów. Podawana w mol/s.';
+let ex712 = '&#916;n<sub>s</sub> - zmiala liczby moli jednego z reagentu.';
+let ex713 = 't - czas reakcji (zmiany liczby moli reagentów)';
 
-let ex721 = '';
-let ex722 = '';
-let ex723 = '';
+let ex721 = '&#916;H<sup>0</sup> - standartowa entalpia reakcji. Podawana w kJ/mol. Jeśli entalpia jest większa od 0, reakcja jest endoenergetyczna, a jeśli mniejsza, to reakcja jest egzoenergetyczna.';
+let ex722 = '&#931;&#916;H<sup>0</sup><sub>p</sub> - suma standartowych entalpii tworzenia wszystkich produktów';
+let ex723 = '>&#931;&#916;H<sup>0</sup><sub>s</sub> - suma standartowych entalpii tworzenia wszystkich substratów';
 
-let ex731 = '';
-let ex732 = '';
-let ex733 = '';
-let ex734 = '';
+let ex731 = '&#916;G<sup>0</sup> - standartowa entalpia swobodna reakcji. Podawana w kJ/mol. Jeśli entalpia jest większa od 0, reakcja jest endotermiczna, a jeśli mniejsza, to reakcja jest egzotermiczna.';
+let ex732 = '&#916;H<sup>0</sup> - standartowa entalpia reakcji. Podawana w kJ/mol.';
+let ex733 = 'T - temperatura, w której prowadzona jest reakcja. Podawana w kelvinach (K). Żeby przeliczyć stopnie Celsjusza na Kelviny należy dodać do ilości stopni Celsjusza 273.';
+let ex734 = '&#916;S<sup>0</sup> - standartowa entropia reakcji. Podawana w kJ/mol*K. Entropia jest miarą stopnia nieuporządkowania układu i rozproszenia energii. Zazwyczaj entropia jest mniej ważna od entalpii w celu ustalenia entalpii swobodnej.';
 
-let ex741 = '';
-let ex742 = '';
-let ex743 = '';
-let ex744 = '';
+let ex741 = '&#916;S<sup>0</sup> - standartowa entropia reakcji. Podawana w kJ/mol*K. Entropia jest miarą stopnia nieuporządkowania układu i rozproszenia energii.';
+let ex742 = '&#916;G<sup>0</sup> - standartowa entalpia swobodna reakcji. Podawana w kJ/mol. Jeśli entalpia jest większa od 0, reakcja jest endotermiczna, a jeśli mniejsza, to reakcja jest egzotermiczna.';
+let ex743 = '&#916;H<sup>0</sup> - standartowa entalpia reakcji. Podawana w kJ/mol. Jeśli entalpia jest większa od 0, reakcja jest endoenergetyczna, a jeśli mniejsza, to reakcja jest egzoenergetyczna.';
+let ex744 = 'T - temperatura, w której prowadzona jest reakcja. Podawana w kelvinach (K). Żeby przeliczyć stopnie Celsjusza na Kelviny należy dodać do ilości stopni Celsjusza 273.';
 
-let ex751 = '';
-let ex752 = '';
-let ex753 = '';
-let ex754 = '';
-let ex755 = '';
-let ex756 = '';
+let ex751 = 'k - stała szybkości reakcji. Używana w równianiach kinetycznych.';
+let ex752 = 'A - liczba Arrheniusa używana w obliczeniach.';
+let ex753 = 'e - liczba Eulera. Niewymierna wartość wynosząca ~2,718';
+let ex754 = 'Ea - Energia aktywacji. Energia wymagana do zainicjowania reakcji.';
+let ex755 = 'R - uniwersalna stała gazowa. Wynosi 83,14';
+let ex756 = 'T - temperatura, w której prowadzona jest reakcja. Podawana w kelvinach (K). Żeby przeliczyć stopnie Celsjusza na Kelviny należy dodać do ilości stopni Celsjusza 273.';
+
+let ex761='';
 
 //część właściwa po zmiennych
 
