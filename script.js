@@ -158,45 +158,46 @@ let ex351='pOH - wartość liczbowa. Im mniejsze tym środowisko bardziej aalkai
 let ex352='pKb - ujemny logarytm dziesiętny ze stałej dysocjacji zasady. Można znaleźć w tablicach chemicznych';
 let ex353='Cza - stężenie zasady';
 let ex354='Cs - stężenie soli';
-//FIXME: ogarnąć te ciołki
-let ex411='Kc - ';
-let ex412='[C]<sup>c</sup> - ';
-let ex413='[D]<sup>d</sup> - ';
-let ex414='[A]<sup>a</sup> - ';
-let ex415='[B]<sup>b</sup> - ';
 
-let ex421='Kp - ';
-let ex422='pC<sup>c</sup> - ';
-let ex423='p0<sup>c</sup> - ';
-let ex424='pD<sup>c</sup> - ';
-let ex425='pA<sup>c</sup> - ';
-let ex426='pB<sup>c</sup> - ';
+let ex411='Kc - stężeniowa stała równowagi. Jeśli Kc>1 to reakcja biegnie w prawą stronę, a jak Kc<1 reakcja biegnie w lewo.';
+let ex412='[C]<sup>c</sup> - Stężenie pierwszego produktu do potęgi jego wykładnika stechiomtrycznego <br> Dla reakcji biegnącej wedle scematu: aA + bB &#8644; cC + dD';
+let ex413='[D]<sup>d</sup> - Stężenie drugiego produktu do potęgi jego wykładnika stechiomtrycznego <br> Dla reakcji biegnącej wedle scematu: aA + bB &#8644; cC + dD';
+let ex414='[A]<sup>a</sup> - Stężenie pierwszego substratu do potęgi jego wykładnika stechiomtrycznego <br> Dla reakcji biegnącej wedle scematu: aA + bB &#8644; cC + dD';
+let ex415='[B]<sup>b</sup> - Stężenie drugiego substratu do potęgi jego wykładnika stechiomtrycznego <br> Dla reakcji biegnącej wedle scematu: aA + bB &#8644; cC + dD';
 
-let ex431='W - ';
-let ex432='mp o. - ';
-let ex433='mp s. - ';
+let ex421='Kp - ciśnieniowa stała równowagi. Jeśli Kp>1 to reakcja biegnie w prawą stronę, a jak Kp<1 reakcja biegnie w lewo.';
+let ex422='pC<sup>c</sup> - Ciśnienie pierwszego produktu do potęgi jego wykładnika stechiomtrycznego <br> Dla reakcji biegnącej wedle scematu: aA + bB &#8644; cC + dD';
+let ex423='p0 - Ciśnienie standartowe. Może wynosić np. 1atm, 1013hPa lub 1bar.';
+let ex424='pD<sup>c</sup> - Ciśnienie drugiego produktu do potęgi jego wykładnika stechiomtrycznego <br> Dla reakcji biegnącej wedle scematu: aA + bB &#8644; cC + dD';
+let ex425='pA<sup>c</sup> - Ciśnienie pierwszego substratu do potęgi jego wykładnika stechiomtrycznego <br> Dla reakcji biegnącej wedle scematu: aA + bB &#8644; cC + dD';
+let ex426='pB<sup>c</sup> - Ciśnienie drugiego substratu do potęgi jego wykładnika stechiomtrycznego <br> Dla reakcji biegnącej wedle scematu: aA + bB &#8644; cC + dD';
 
-let ex441='p - ';
-let ex442='V - ';
-let ex443='n - ';
-let ex444='R - ';
-let ex445='T - ';
-//----
-let ex511='Cp - ';
-let ex512='ms - ';
-let ex513='mr - ';
+let ex431='W - Wydajność reakcji podawana w procentach';
+let ex432='mp o. - masa produktu otrzymanego';
+let ex433='mp s. - masa produktu spodziewana wedle stechiometrii.';
 
-let ex521='Cp<sub>m</sub> - ';
-let ex512='ns<sub>1</sub> - ';
-let ex523='ns<sub>2</sub> - ';
+let ex441='p - ciśnienie gazu (gazów) najczęściej podawane w hPa lub w Pa';
+let ex442='V - objętość gazu (gazów) najczęściej podawana w dm<sup>3</sup> lub m<sup>3</sup>';
+let ex443='n - łączna liczba moli gazu (gazów)';
+let ex444='R - uniwersalna stała gazowa. Dla [p]=1hPa i [V]=1dm<sup>3</sup> R=83,14. Dla [p]=1Pa i [V]=1m<sup>3</sup> R=8,314.';
+let ex445='T - temperatura podawana w Kelvinach (K)';
 
-let ex531='Cm - ';
-let ex532='ns - ';
-let ex533='V - ';
+let ex511='Cp - stężenie procentowe masowe';
+let ex512='ms - masa substancji rozpuszczonej';
+let ex513='mr - masa roztworu';
 
-let ex541='C<sub>molalne</sub> - ';
-let ex542='ns - ';
-let ex543='m<sub>rozp.</sub>';
+let ex521='Cp<sub>m</sup> - stężenie procentowe molowe';
+let ex522='ns<sub>1</sub> - liczba moli pierwszej substancji';
+let ex523='ns<sub>2</sub> - liczba moli drugiej substancji';
+
+let ex531='Cm - stężenie molowe';
+let ex532='ns - liczba moli substancji';
+let ex533='V - objętość roztworu';
+
+let ex541='C<sub>molalne</sub> - rzadko używany sposób wyrażaniaa stężenia substancji';
+let ex542='ns - liczba moli substancji';
+let ex543='m<sub>rozp.</sub> - masa rozpuszczalnika wyrażona w kilogramach';
+
 let ex611 = '&#945; - NIEOFICJALNE. Określa stopień nienasycenia. Jego wielkość określa ilość wiązań podwójnych/pierścieni';
 let ex612 = 'n<sub>C</sub> - ilość atomów węgla w cząsteczce';
 let ex613 = 'n<sub>H</sub> - ilość atomów wodoru w cząsteczce';
