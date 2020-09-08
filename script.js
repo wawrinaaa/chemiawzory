@@ -236,7 +236,10 @@ let ex754 = 'Ea - Energia aktywacji. Energia wymagana do zainicjowania reakcji.'
 let ex755 = 'R - uniwersalna stała gazowa. Wynosi 83,14';
 let ex756 = 'T - temperatura, w której prowadzona jest reakcja. Podawana w kelvinach (K). Żeby przeliczyć stopnie Celsjusza na Kelviny należy dodać do ilości stopni Celsjusza 273.';
 
-let ex761='';
+let ex761='Ck - stężenie końcowe reagentu';
+let ex762='Co - stężenie początkowe reagentu';
+let ex763='k - stała szybkości reakcji. Używana np. w równaniu Arrheniusa';
+let ex764='t - czas trwania reakcji';
 //część właściwa po zmiennych
 
 function execute_formulas(subject)
@@ -1210,7 +1213,7 @@ function explanation(group, formulanr, letter)
             }
 
 break;}
-case 8:
+case 7:
     {
         switch(formulanr)
         {
@@ -1376,22 +1379,22 @@ case 8:
                {
                     case 1:
                         {
-                            document.getElementById("explanation").innerHTML=ex771;
+                            document.getElementById("explanation").innerHTML=ex761;
                             break;
                         }
                     case 2:
                         {
-                            document.getElementById("explanation").innerHTML=ex772;
+                            document.getElementById("explanation").innerHTML=ex762;
                             break;
                         }
                     case 3:
                         {
-                            document.getElementById("explanation").innerHTML=ex773;
+                            document.getElementById("explanation").innerHTML=ex763;
                             break;
                         }
                         case 4:
                         {
-                            document.getElementById("explanation").innerHTML=ex774;
+                            document.getElementById("explanation").innerHTML=ex764;
                             break;
                         }
                } 
@@ -1402,22 +1405,22 @@ case 8:
                {
                     case 1:
                         {
-                            document.getElementById("explanation").innerHTML=ex781;
+                            document.getElementById("explanation").innerHTML=ex761;
                             break;
                         }
                     case 2:
                         {
-                            document.getElementById("explanation").innerHTML=ex782;
+                            document.getElementById("explanation").innerHTML=ex762;
                             break;
                         }
                     case 3:
                         {
-                            document.getElementById("explanation").innerHTML=ex783;
+                            document.getElementById("explanation").innerHTML=ex763;
                             break;
                         }
                         case 4:
                         {
-                            document.getElementById("explanation").innerHTML=ex784;
+                            document.getElementById("explanation").innerHTML=ex764;
                             break;
                         }
                } 
@@ -1428,22 +1431,22 @@ case 8:
                {
                     case 1:
                         {
-                            document.getElementById("explanation").innerHTML=ex798;
+                            document.getElementById("explanation").innerHTML=ex761;
                             break;
                         }
                     case 2:
                         {
-                            document.getElementById("explanation").innerHTML=ex792;
+                            document.getElementById("explanation").innerHTML=ex762;
                             break;
                         }
                     case 3:
                         {
-                            document.getElementById("explanation").innerHTML=ex793;
+                            document.getElementById("explanation").innerHTML=ex763;
                             break;
                         }
                         case 4:
                         {
-                            document.getElementById("explanation").innerHTML=ex794;
+                            document.getElementById("explanation").innerHTML=ex764;
                             break;
                         }
                } 
