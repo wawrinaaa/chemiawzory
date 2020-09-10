@@ -156,7 +156,8 @@ footer {
     box-shadow: 35px 26px 69px 2px rgba(0, 0, 0, 0.75);
     text-align: center;
     font-size: 3em;
-    font-family: 'Press Start 2P', cursive;
+    font-family: 'Inconsolata', monospace;
+    Font-weight: 900;
     padding: 150px 0;
     cursor: default;
 }
