@@ -1,91 +1,91 @@
 let inside1='<div id="formula1" class="formula" onclick="showformula(1, 1)">Moment dipolowy</div><div id="formula2" class="formula" onclick="showformula(1, 2)">Masa próbki wytr. w skutek elektrolizy</div><div id="formula3" class="formula" onclick="showformula(1, 3)">Równoważnik Elektrochemiczny</div><div id="formula4" class="formula" onclick="showformula(1, 4)">Siła ele. motoryczna ogniwa (EMF)</div>';
 
-    let bf11='<span onmouseover="explanation(1, 1, 1);">&#181;</span>=<span onmouseover="explanation(1, 1, 2);">Q</span>*<span onmouseover="explanation(1, 1, 3);">r</span>';
+    let bf11='<span class="chrosshair" onmouseover="explanation(1, 1, 1);">&#181;</span class="chrosshair">=<span class="chrosshair" onmouseover="explanation(1, 1, 2);">Q</span class="chrosshair">*<span class="chrosshair" onmouseover="explanation(1, 1, 3);">r</span class="chrosshair">';
 
-    let bf12='<span onmouseover="explanation(1, 2, 1);">m</span>=<span onmouseover="explanation(1, 2, 2);">k</span>*<span onmouseover="explanation(1, 2, 3);">I</span>*<span onmouseover="explanation(1, 2, 4);">t</span>';
+    let bf12='<span class="chrosshair" onmouseover="explanation(1, 2, 1);">m</span class="chrosshair">=<span class="chrosshair" onmouseover="explanation(1, 2, 2);">k</span class="chrosshair">*<span class="chrosshair" onmouseover="explanation(1, 2, 3);">I</span class="chrosshair">*<span class="chrosshair" onmouseover="explanation(1, 2, 4);">t</span class="chrosshair">';
 
-    let bf13='<span onmouseover="explanation(1, 3, 1);">k</span>=<span onmouseover="explanation(1, 3, 2);">M</span>/(<span onmouseover="explanation(1, 3, 3);">z</span>*<span onmouseover="explanation(1, 3, 4);">F</span>)';
+    let bf13='<span class="chrosshair" onmouseover="explanation(1, 3, 1);">k</span class="chrosshair">=<span class="chrosshair" onmouseover="explanation(1, 3, 2);">M</span class="chrosshair">/(<span class="chrosshair" onmouseover="explanation(1, 3, 3);">z</span class="chrosshair">*<span class="chrosshair" onmouseover="explanation(1, 3, 4);">F</span class="chrosshair">)';
 
-    let bf14='<span onmouseover="explanation(1, 4, 1);">EMF</span>=<span onmouseover="explanation(1, 4, 2);">E<sub>k</sub></span>-<span onmouseover="explanation(1, 4, 3);">E<sub>a</sub></span>';
+    let bf14='<span class="chrosshair" onmouseover="explanation(1, 4, 1);">EMF</span class="chrosshair">=<span class="chrosshair" onmouseover="explanation(1, 4, 2);">E<sub>k</sub></span class="chrosshair">-<span class="chrosshair" onmouseover="explanation(1, 4, 3);">E<sub>a</sub></span class="chrosshair">';
 
 let inside2='<div id="formula1" class="formula" onclick="showformula(2, 1)">pH</div><div id="formula2" class="formula" onclick="showformula(2, 2)">pOH</div><div id="formula3" class="formula" onclick="showformula(2, 3)">przeliczenie<br>pOH na pH</div><div id="formula4" class="formula" onclick="showformula(2, 4)">Stała dysocjacji kwasu</div><div id="formula5" class="formula"  onclick="showformula(2, 5)">Stała dysocjacji zasady</div><div id="formula6" class="formula" onclick="showformula(2, 6)">Stopień dysocjacji<br>(pełny)</div><div id="formula7" class="formula" onclick="showformula(2, 7)">Zasada upraszczania wzoru &uarr;</div><div id="formula8" class="formula" onclick="showformula(2, 8)">Stopień dysocjacji<br>(uproszczony)</div>';
 
-    let bf21='<span onmouseover="explanation(2, 1, 1);">pH</span>=-log<sub>10</sub> <span onmouseover="explanation(2, 1, 2);">[H<sup>+</sup>]</span>';
+    let bf21='<span class="chrosshair" onmouseover="explanation(2, 1, 1);">pH</span class="chrosshair">=-log<sub>10</sub> <span class="chrosshair" onmouseover="explanation(2, 1, 2);">[H<sup>+</sup>]</span class="chrosshair">';
 
-    let bf22='<span onmouseover="explanation(2, 2, 1);">pOH</span>=-log<sub>10</sub> <span onmouseover="explanation(2, 2, 2);">[OH<sup>-</sup>]</span>';
+    let bf22='<span class="chrosshair" onmouseover="explanation(2, 2, 1);">pOH</span class="chrosshair">=-log<sub>10</sub> <span class="chrosshair" onmouseover="explanation(2, 2, 2);">[OH<sup>-</sup>]</span class="chrosshair">';
     
-    let bf23='<span onmouseover="explanation(2, 3, 1);">pH</span>=14-<span onmouseover="explanation(2, 3, 2);">pOH</span>';
+    let bf23='<span class="chrosshair" onmouseover="explanation(2, 3, 1);">pH</span class="chrosshair">=14-<span class="chrosshair" onmouseover="explanation(2, 3, 2);">pOH</span class="chrosshair">';
     
-    let bf24='<span onmouseover="explanation(2, 4, 1);">K<sub>a</sub></span>=<span onmouseover="explanation(2, 4, 2);">[H<sup>+</sup>]</span>*<span onmouseover="explanation(2, 4, 3);">[R<sup>-</sup>]</span>/<span onmouseover="explanation(2, 4, 4);">[HR]</span>';
+    let bf24='<span class="chrosshair" onmouseover="explanation(2, 4, 1);">K<sub>a</sub></span class="chrosshair">=<span class="chrosshair" onmouseover="explanation(2, 4, 2);">[H<sup>+</sup>]</span class="chrosshair">*<span class="chrosshair" onmouseover="explanation(2, 4, 3);">[R<sup>-</sup>]</span class="chrosshair">/<span class="chrosshair" onmouseover="explanation(2, 4, 4);">[HR]</span class="chrosshair">';
     
-    let bf25='<span onmouseover="explanation(2, 5, 1);">K<sub>b</sub></span>=<span onmouseover="explanation(2, 5, 2);">[OH<sup>-</sup>]</span>*<span onmouseover="explanation(2, 5, 3);">[M<sup>+</sup>]</span>/<span onmouseover="explanation(2, 5, 4);">[MOH]</span>';
+    let bf25='<span class="chrosshair" onmouseover="explanation(2, 5, 1);">K<sub>b</sub></span class="chrosshair">=<span class="chrosshair" onmouseover="explanation(2, 5, 2);">[OH<sup>-</sup>]</span class="chrosshair">*<span class="chrosshair" onmouseover="explanation(2, 5, 3);">[M<sup>+</sup>]</span class="chrosshair">/<span class="chrosshair" onmouseover="explanation(2, 5, 4);">[MOH]</span class="chrosshair">';
     
-    let bf26='<span onmouseover="explanation(2, 6, 1);">K</span>=<span onmouseover="explanation(2, 6, 2);">Cm</span>*<span onmouseover="explanation(2, 6, 3);">&#945;<sup>2</sup></span>/<span onmouseover="explanation(2, 6, 3);">(1-&#945;)</span>';
+    let bf26='<span class="chrosshair" onmouseover="explanation(2, 6, 1);">K</span class="chrosshair">=<span class="chrosshair" onmouseover="explanation(2, 6, 2);">Cm</span class="chrosshair">*<span class="chrosshair" onmouseover="explanation(2, 6, 3);">&#945;<sup>2</sup></span class="chrosshair">/<span class="chrosshair" onmouseover="explanation(2, 6, 3);">(1-&#945;)</span class="chrosshair">';
     
-    let bf27='<span onmouseover="explanation(2, 7, 1);">&#945;</span><5% lub <span onmouseover="explanation(2, 7, 2);">Cm</span>/<span onmouseover="explanation(2, 7, 3);">K</sup></span>>400';
+    let bf27='<span class="chrosshair" onmouseover="explanation(2, 7, 1);">&#945;</span class="chrosshair"><5% lub <span class="chrosshair" onmouseover="explanation(2, 7, 2);">Cm</span class="chrosshair">/<span class="chrosshair" onmouseover="explanation(2, 7, 3);">K</sup></span class="chrosshair">>400';
     
-    let bf28='<span onmouseover="explanation(2, 8, 1);">K</span>=<span onmouseover="explanation(2, 8, 2);">Cm</span>*<span onmouseover="explanation(2, 8, 3);">&#945;<sup>2</sup></span>';
+    let bf28='<span class="chrosshair" onmouseover="explanation(2, 8, 1);">K</span class="chrosshair">=<span class="chrosshair" onmouseover="explanation(2, 8, 2);">Cm</span class="chrosshair">*<span class="chrosshair" onmouseover="explanation(2, 8, 3);">&#945;<sup>2</sup></span class="chrosshair">';
 
 let inside3='<div id="formula1" class="formula" onclick="showformula(3, 1)">Iloczyn rozpuszcalności</div><div id="formula2" class="formula" onclick="showformula(3, 2)">Rozpuszczalnść</div><div id="formula3" class="formula" onclick="showformula(3, 3)">Iloczyn jonowy wody</div><div id="formula4" class="formula" onclick="showformula(3, 4)">pH buforu kwaśnego</div><div id="formula5" class="formula" onclick="showformula(3, 5)">pOH buforu zasadowego</div>';
 
-    let bf31='<span onmouseover="explanation(3, 1, 1);">Kso</span>=<span onmouseover="explanation(3, 1, 2);">[M+]<sup>r</sup></span>*<span onmouseover="explanation(3, 1, 3);">[R-]<sup>m</sup></span>/<span onmouseover="explanation(3, 1, 4);">[MR]</span>';
+    let bf31='<span class="chrosshair" onmouseover="explanation(3, 1, 1);">Kso</span class="chrosshair">=<span class="chrosshair" onmouseover="explanation(3, 1, 2);">[M+]<sup>r</sup></span class="chrosshair">*<span class="chrosshair" onmouseover="explanation(3, 1, 3);">[R-]<sup>m</sup></span class="chrosshair">/<span class="chrosshair" onmouseover="explanation(3, 1, 4);">[MR]</span class="chrosshair">';
 
-    let bf32='<span onmouseover="explanation(3, 2, 1);">So</span>=<span onmouseover="explanation(3, 2, 2);">(rM)<sup>r</sup></span>*<span onmouseover="explanation(3, 2, 3);">(nR)<sup>n</sup></span>';
+    let bf32='<span class="chrosshair" onmouseover="explanation(3, 2, 1);">So</span class="chrosshair">=<span class="chrosshair" onmouseover="explanation(3, 2, 2);">(rM)<sup>r</sup></span class="chrosshair">*<span class="chrosshair" onmouseover="explanation(3, 2, 3);">(nR)<sup>n</sup></span class="chrosshair">';
 
-    let bf33='<span onmouseover="explanation(3, 3, 1);">Kw</span>=10<sup>-14</sup>';
+    let bf33='<span class="chrosshair" onmouseover="explanation(3, 3, 1);">Kw</span class="chrosshair">=10<sup>-14</sup>';
 
-    let bf34='<span onmouseover="explanation(3, 4, 1);">pH</span>=<span onmouseover="explanation(3, 4, 2);">pKa</span>-log<sub>10</sub>(<span onmouseover="explanation(3, 4, 3);">C<sub>kw</sub></span>/<span onmouseover="explanation(3, 4, 4);">C<sub>s</sub></span>)';
+    let bf34='<span class="chrosshair" onmouseover="explanation(3, 4, 1);">pH</span class="chrosshair">=<span class="chrosshair" onmouseover="explanation(3, 4, 2);">pKa</span class="chrosshair">-log<sub>10</sub>(<span class="chrosshair" onmouseover="explanation(3, 4, 3);">C<sub>kw</sub></span class="chrosshair">/<span class="chrosshair" onmouseover="explanation(3, 4, 4);">C<sub>s</sub></span class="chrosshair">)';
 
-    let bf35='<span onmouseover="explanation(3, 5, 1);">pOH</span>=<span onmouseover="explanation(3, 5, 2);">pKb</span>-log<sub>10</sub>(<span onmouseover="explanation(3, 5, 3);">C<sub>za</sub></span>/<span onmouseover="explanation(3, 5, 4);">C<sub>s</sub></span>)';
+    let bf35='<span class="chrosshair" onmouseover="explanation(3, 5, 1);">pOH</span class="chrosshair">=<span class="chrosshair" onmouseover="explanation(3, 5, 2);">pKb</span class="chrosshair">-log<sub>10</sub>(<span class="chrosshair" onmouseover="explanation(3, 5, 3);">C<sub>za</sub></span class="chrosshair">/<span class="chrosshair" onmouseover="explanation(3, 5, 4);">C<sub>s</sub></span class="chrosshair">)';
     
 
 let inside4='<div id="formula1" class="formula" onclick="showformula(4, 1)">Stężeniowa stała równowagi</div><div id="formula2" class="formula" onclick="showformula(4, 2)">Ciśnieniowa stała równowagi</div><div id="formula3" class="formula" onclick="showformula(4, 3)">Wydajność reakcji</div><div id="formula4" class="formula" onclick="showformula(4, 4)">Równanie Clapeyrona</div>'; 
 
-    let bf41='<span onmouseover="explanation(4, 1, 1);">Kc</span>=<span onmouseover="explanation(4, 1, 2);">[C]<sup>c</sup></span>*<span onmouseover="explanation(4, 1, 3);">[D]<sup>d</sup></span>/(<span onmouseover="explanation(4, 1, 4);">[A]<sup>a</sup></span>*<span onmouseover="explanation(4, 1, 5);">[B]<sup>b</sup></span>)';
+    let bf41='<span class="chrosshair" onmouseover="explanation(4, 1, 1);">Kc</span class="chrosshair">=<span class="chrosshair" onmouseover="explanation(4, 1, 2);">[C]<sup>c</sup></span class="chrosshair">*<span class="chrosshair" onmouseover="explanation(4, 1, 3);">[D]<sup>d</sup></span class="chrosshair">/(<span class="chrosshair" onmouseover="explanation(4, 1, 4);">[A]<sup>a</sup></span class="chrosshair">*<span class="chrosshair" onmouseover="explanation(4, 1, 5);">[B]<sup>b</sup></span class="chrosshair">)';
 
-    let bf42='<span onmouseover="explanation(4, 2, 1);">Kp</span>=[(<span onmouseover="explanation(4, 2, 2);">{pC}<sup>c</sup></span>/<span onmouseover="explanation(4, 2, 3);">p0</span>)*(<span onmouseover="explanation(4, 2, 4);">{pD}<sup>d</sup></span>/<span onmouseover="explanation(4, 2, 3);">p0</span>)]/[(<span onmouseover="explanation(4, 2, 5);">{pA}<sup>a</sup></span>/<span onmouseover="explanation(4, 2, 3);">p0</span>)*(<span onmouseover="explanation(4, 2, 6);">{pB}<sup>b</sup></span>/<span onmouseover="explanation(4, 2, 3);">p0</span>})]';
+    let bf42='<span class="chrosshair smallerfontpls" onmouseover="explanation(4, 2, 1);">Kp</span class="chrosshair smallerfontpls">=[(<span class="chrosshair smallerfontpls" onmouseover="explanation(4, 2, 2);">{pC}<sup>c</sup></span class="chrosshair smallerfontpls">/<span class="chrosshair smallerfontpls" onmouseover="explanation(4, 2, 3);">p0</span class="chrosshair smallerfontpls">)*(<span class="chrosshair smallerfontpls" onmouseover="explanation(4, 2, 4);">{pD}<sup>d</sup></span class="chrosshair smallerfontpls">/<span class="chrosshair smallerfontpls" onmouseover="explanation(4, 2, 3);">p0</span class="chrosshair smallerfontpls">)]/[(<span class="chrosshair smallerfontpls" onmouseover="explanation(4, 2, 5);">{pA}<sup>a</sup></span class="chrosshair smallerfontpls">/<span class="chrosshair smallerfontpls" onmouseover="explanation(4, 2, 3);">p0</span class="chrosshair smallerfontpls">)*(<span class="chrosshair smallerfontpls" onmouseover="explanation(4, 2, 6);">{pB}<sup>b</sup></span class="chrosshair smallerfontpls">/<span class="chrosshair smallerfontpls" onmouseover="explanation(4, 2, 3);">p0</span class="chrosshair smallerfontpls">})]';
 
-    let bf43='<span onmouseover="explanation(4, 3, 1);">W</span>=<span onmouseover="explanation(4, 3, 2);">m<sub>p</sub> o.</span>/<span onmouseover="explanation(4, 3, 3);">m<sub>p</sub> s.</span>*100%';
+    let bf43='<span class="chrosshair" onmouseover="explanation(4, 3, 1);">W</span class="chrosshair">=<span class="chrosshair" onmouseover="explanation(4, 3, 2);">m<sub>p</sub> o.</span class="chrosshair">/<span class="chrosshair" onmouseover="explanation(4, 3, 3);">m<sub>p</sub> s.</span class="chrosshair">*100%';
 
-    let bf44='<span onmouseover="explanation(4, 4, 1);">p</span>*<span onmouseover="explanation(4, 4, 2);">V</span>=<span onmouseover="explanation(4, 4, 3);">n</span>*<span onmouseover="explanation(4, 4, 4);">R</span>*<span onmouseover="explanation(4, 4, 5);">T</span>';
+    let bf44='<span class="chrosshair" onmouseover="explanation(4, 4, 1);">p</span class="chrosshair">*<span class="chrosshair" onmouseover="explanation(4, 4, 2);">V</span class="chrosshair">=<span class="chrosshair" onmouseover="explanation(4, 4, 3);">n</span class="chrosshair">*<span class="chrosshair" onmouseover="explanation(4, 4, 4);">R</span class="chrosshair">*<span class="chrosshair" onmouseover="explanation(4, 4, 5);">T</span class="chrosshair">';
 
 let inside5='<div id="formula1" class="formula" onclick="showformula(5, 1)">Stężenie procentowe masowe</div><div id="formula2" class="formula" onclick="showformula(5, 2)">Stężenie procentowe molowe</div><div id="formula3" class="formula" onclick="showformula(5, 3)">Stężenie molowe</div><div id="formula4" class="formula" onclick="showformula(5, 4)">Stężenie molalne mol/m</div>';
 
-    let bf51='<span onmouseover="explanation(5, 1, 1);">Cp</span>=<span onmouseover="explanation(5, 1, 2);">m<sub>s</sub></span>/<span onmouseover="explanation(5, 1, 3);">m<sub>r</sub></span> *<span onmouseover="explanation(5, 1, 4);">100%</span>';
+    let bf51='<span class="chrosshair" onmouseover="explanation(5, 1, 1);">Cp</span class="chrosshair">=<span class="chrosshair" onmouseover="explanation(5, 1, 2);">m<sub>s</sub></span class="chrosshair">/<span class="chrosshair" onmouseover="explanation(5, 1, 3);">m<sub>r</sub></span class="chrosshair"> *<span class="chrosshair" onmouseover="explanation(5, 1, 4);">100%</span class="chrosshair">';
 
-    let bf52='<span onmouseover="explanation(5, 2, 1);">Cp<sub>m</sub></span>=<span onmouseover="explanation(5, 2, 2);">n<sub>s1</sub></span>/<span onmouseover="explanation(5, 2, 3);">n<sub>s2</sub></span> *<span onmouseover="explanation(5, 2, 4);">100%</span>';
+    let bf52='<span class="chrosshair" onmouseover="explanation(5, 2, 1);">Cp<sub>m</sub></span class="chrosshair">=<span class="chrosshair" onmouseover="explanation(5, 2, 2);">n<sub>s1</sub></span class="chrosshair">/<span class="chrosshair" onmouseover="explanation(5, 2, 3);">n<sub>s2</sub></span class="chrosshair"> *<span class="chrosshair" onmouseover="explanation(5, 2, 4);">100%</span class="chrosshair">';
 
-    let bf53='<span onmouseover="explanation(5, 3, 1);">Cm</span>=<span onmouseover="explanation(5, 3, 2);">n<sub>s</sub></span>/<span onmouseover="explanation(5, 3, 3);">V</span>';
+    let bf53='<span class="chrosshair" onmouseover="explanation(5, 3, 1);">Cm</span class="chrosshair">=<span class="chrosshair" onmouseover="explanation(5, 3, 2);">n<sub>s</sub></span class="chrosshair">/<span class="chrosshair" onmouseover="explanation(5, 3, 3);">V</span class="chrosshair">';
 
-    let bf54='<span onmouseover="explanation(5, 4, 1);">C<sub>molalne</sub></span>=<span onmouseover="explanation(5, 4, 2);">n<sub>s</sub></span>/<span onmouseover="explanation(5, 4, 3);">m<sub>rozp.</sub></span>';
+    let bf54='<span class="chrosshair" onmouseover="explanation(5, 4, 1);">C<sub>molalne</sub></span class="chrosshair">=<span class="chrosshair" onmouseover="explanation(5, 4, 2);">n<sub>s</sub></span class="chrosshair">/<span class="chrosshair" onmouseover="explanation(5, 4, 3);">m<sub>rozp.</sub></span class="chrosshair">';
 
 let inside6='<div id="formula1" class="formula" onclick="showformula(6, 1)">Stopień nienasycenia</div><div id="formula2" class="formula" onclick="showformula(6, 2)">Skręcalność właściwa</div><div id="formula3" class="formula" onclick="showformula(6, 3)">Maksymalna ilość diastereoizomerów</div>';
 
-    let bf61='<span onmouseover="explanation(6, 1, 1);">&#945;</span>=(2*<span onmouseover="explanation(6, 1, 2);">n<sub>C</sub></span>+2-<span onmouseover="explanation(6, 1, 3);">n<sub>H</sub></span>-<span onmouseover="explanation(6, 1, 4);">n<sub>X</sub></span>+<span onmouseover="explanation(6, 1, 5);">n<sub>N</sub></span>)/2';
+    let bf61='<span class="chrosshair" onmouseover="explanation(6, 1, 1);">&#945;</span class="chrosshair">=(2*<span class="chrosshair" onmouseover="explanation(6, 1, 2);">n<sub>C</sub></span class="chrosshair">+2-<span class="chrosshair" onmouseover="explanation(6, 1, 3);">n<sub>H</sub></span class="chrosshair">-<span class="chrosshair" onmouseover="explanation(6, 1, 4);">n<sub>X</sub></span class="chrosshair">+<span class="chrosshair" onmouseover="explanation(6, 1, 5);">n<sub>N</sub></span class="chrosshair">)/2';
 
-    let bf62='<span onmouseover="explanation(6, 2, 1);">[&#945;]<sub>D</sub></span>=<span onmouseover="explanation(6, 2, 2);">&#945;</span>/(l*<span onmouseover="explanation(6, 2, 3);">c</span>)';
+    let bf62='<span class="chrosshair" onmouseover="explanation(6, 2, 1);">[&#945;]<sub>D</sub></span class="chrosshair">=<span class="chrosshair" onmouseover="explanation(6, 2, 2);">&#945;</span class="chrosshair">/(l*<span class="chrosshair" onmouseover="explanation(6, 2, 3);">c</span class="chrosshair">)';
 
-    let bf63='<span onmouseover="explanation(6, 3, 1);">Max. ilość</span>=<br>2<span onmouseover="explanation(6, 3, 2);"><sup>ilość centów chiralności</sup></span>';
+    let bf63='<span class="chrosshair" onmouseover="explanation(6, 3, 1);">Max. ilość</span class="chrosshair">=<br>2<span class="chrosshair" onmouseover="explanation(6, 3, 2);"><sup>ilość centów chiralności</sup></span class="chrosshair">';
 
 let inside7='<div id="formula1" class="formula" onclick="showformula(7, 1)">Szybkość reakcji</div><div id="formula2" class="formula" onclick="showformula(7, 2)">Standartowa entalpia</div><div id="formula3" class="formula" onclick="showformula(7, 3)">Entalpia swobodna</div><div id="formula4" class="formula" onclick="showformula(7, 4)">Entropia</div><div id="formula5" class="formula" onclick="showformula(7, 5)">Równanie Arheniusa</div><div id="formula6" class="formula" onclick="showformula(7, 6)">Równanie kinetyczne 1szego stopnia</div><div id="formula7" class="formula" onclick="showformula(7, 7)">Równanie kinetyczne 2giego stopnia</div><div id="formula8" class="formula" onclick="showformula(7, 8)">Równanie kinetyczne 3ciego stopnia</div><div id="formula9" class="formula" onclick="showformula(7, 9)">Równanie kinetyczne 4tego stopnia</div>';
 
-    let bf71='<span onmouseover="explanation(7, 1, 1);">v</span>=<span onmouseover="explanation(7, 1, 2);">&#916;n<sub>s</sub></span>/<span onmouseover="explanation(7, 1, 3);">t</span>';
+    let bf71='<span class="chrosshair" onmouseover="explanation(7, 1, 1);">v</span class="chrosshair">=<span class="chrosshair" onmouseover="explanation(7, 1, 2);">&#916;n<sub>s</sub></span class="chrosshair">/<span class="chrosshair" onmouseover="explanation(7, 1, 3);">t</span class="chrosshair">';
 
-    let bf72='<span onmouseover="explanation(7, 2, 1);">&#916;H<sup>0</sup></span>=<span onmouseover="explanation(7, 2, 2);">&#931;&#916;H<sup>0</sup><sub>produktów</sub></span>-<span onmouseover="explanation(7, 2, 3);">&#931;&#916;H<sup>0</sup><sub>substratów</sub></span>';
+    let bf72='<span class="chrosshair" onmouseover="explanation(7, 2, 1);">&#916;H<sup>0</sup></span class="chrosshair">=<span class="chrosshair" onmouseover="explanation(7, 2, 2);">&#931;&#916;H<sup>0</sup><sub>produktów</sub></span class="chrosshair">-<span class="chrosshair" onmouseover="explanation(7, 2, 3);">&#931;&#916;H<sup>0</sup><sub>substratów</sub></span class="chrosshair">';
 
-    let bf73='<span onmouseover="explanation(7, 3, 1);">&#916;G<sup>0</sup></span>=<span onmouseover="explanation(7, 3, 2);">&#916;H<sup>0</sup></span>-<span onmouseover="explanation(7, 3, 3);">T</span>*<span onmouseover="explanation(7, 3, 4);">&#916;S<sup>0</sup></span>';
+    let bf73='<span class="chrosshair" onmouseover="explanation(7, 3, 1);">&#916;G<sup>0</sup></span class="chrosshair">=<span class="chrosshair" onmouseover="explanation(7, 3, 2);">&#916;H<sup>0</sup></span class="chrosshair">-<span class="chrosshair" onmouseover="explanation(7, 3, 3);">T</span class="chrosshair">*<span class="chrosshair" onmouseover="explanation(7, 3, 4);">&#916;S<sup>0</sup></span class="chrosshair">';
 
-    let bf74='<span onmouseover="explanation(7, 4, 1);">&#916;S<sup>0</sup></span>=(<span onmouseover="explanation(7, 4, 2);">&#916;G<sup>0</sup></span>-<span onmouseover="explanation(7, 4, 3);">&#916;H<sup>0</sup></span>)/<span onmouseover="explanation(7, 4, 4);">-T</span>';
+    let bf74='<span class="chrosshair" onmouseover="explanation(7, 4, 1);">&#916;S<sup>0</sup></span class="chrosshair">=(<span class="chrosshair" onmouseover="explanation(7, 4, 2);">&#916;G<sup>0</sup></span class="chrosshair">-<span class="chrosshair" onmouseover="explanation(7, 4, 3);">&#916;H<sup>0</sup></span class="chrosshair">)/<span class="chrosshair" onmouseover="explanation(7, 4, 4);">-T</span class="chrosshair">';
 
-    let bf75='<span onmouseover="explanation(7, 5, 1);">K</span>=<span onmouseover="explanation(7, 5, 2);">A</span>*<span onmouseover="explanation(7, 5, 3);">e</span><sup>-<span onmouseover="explanation(7, 5, 4);">Ea</span>/(<span onmouseover="explanation(7, 5, 5);">R</span>*<span onmouseover="explanation(7, 5, 6);">T</span>)</sup>';
+    let bf75='<span class="chrosshair" onmouseover="explanation(7, 5, 1);">K</span class="chrosshair">=<span class="chrosshair" onmouseover="explanation(7, 5, 2);">A</span class="chrosshair">*<span class="chrosshair" onmouseover="explanation(7, 5, 3);">e</span class="chrosshair"><sup>-<span class="chrosshair" onmouseover="explanation(7, 5, 4);">Ea</span class="chrosshair">/(<span class="chrosshair" onmouseover="explanation(7, 5, 5);">R</span class="chrosshair">*<span class="chrosshair" onmouseover="explanation(7, 5, 6);">T</span class="chrosshair">)</sup>';
 
-    let bf76='<span onmouseover="explanation(7, 6, 1);">Ck</span>=<span onmouseover="explanation(7, 6, 2);">Co</span>-<span onmouseover="explanation(7, 6, 3);">k</span>*<span onmouseover="explanation(7, 6, 4);">t</span>';
+    let bf76='<span class="chrosshair" onmouseover="explanation(7, 6, 1);">Ck</span class="chrosshair">=<span class="chrosshair" onmouseover="explanation(7, 6, 2);">Co</span class="chrosshair">-<span class="chrosshair" onmouseover="explanation(7, 6, 3);">k</span class="chrosshair">*<span class="chrosshair" onmouseover="explanation(7, 6, 4);">t</span class="chrosshair">';
 
-    let bf77='<span onmouseover="explanation(7, 7, 1);">ln<sub>Ck</sub></span>=<span onmouseover="explanation(7, 7, 2);">ln<sub>Co</sub></span>-<span onmouseover="explanation(7, 7, 3);">k</span>*<span onmouseover="explanation(7, 7, 4);">t</span>';
+    let bf77='<span class="chrosshair" onmouseover="explanation(7, 7, 1);">ln<sub>Ck</sub></span class="chrosshair">=<span class="chrosshair" onmouseover="explanation(7, 7, 2);">ln<sub>Co</sub></span class="chrosshair">-<span class="chrosshair" onmouseover="explanation(7, 7, 3);">k</span class="chrosshair">*<span class="chrosshair" onmouseover="explanation(7, 7, 4);">t</span class="chrosshair">';
 
-    let bf78='<span onmouseover="explanation(7, 8, 1);">1/Ck</span>=<span onmouseover="explanation(7, 8, 2);">1/Co</span>+<span onmouseover="explanation(7, 8, 3);">k</span>*<span onmouseover="explanation(7, 8, 4);">t</span>';
+    let bf78='<span class="chrosshair" onmouseover="explanation(7, 8, 1);">1/Ck</span class="chrosshair">=<span class="chrosshair" onmouseover="explanation(7, 8, 2);">1/Co</span class="chrosshair">+<span class="chrosshair" onmouseover="explanation(7, 8, 3);">k</span class="chrosshair">*<span class="chrosshair" onmouseover="explanation(7, 8, 4);">t</span class="chrosshair">';
 
-    let bf79='<span onmouseover="explanation(7, 9, 1);">1/Ck<sup>2</sup></span>=<span onmouseover="explanation(7, 9, 2);">1/Co<sup>2</sup></span>+2*<span onmouseover="explanation(7, 9, 3);">k</span>*<span onmouseover="explanation(7, 9, 4);">t</span>';
+    let bf79='<span class="chrosshair" onmouseover="explanation(7, 9, 1);">1/Ck<sup>2</sup></span class="chrosshair">=<span class="chrosshair" onmouseover="explanation(7, 9, 2);">1/Co<sup>2</sup></span class="chrosshair">+2*<span class="chrosshair" onmouseover="explanation(7, 9, 3);">k</span class="chrosshair">*<span class="chrosshair" onmouseover="explanation(7, 9, 4);">t</span class="chrosshair">';
 
 //zmienne wyjaśniające litery we wzorach
 
@@ -409,7 +409,7 @@ function showformula(group, place)
                     case 2:
                         {
                             document.getElementById("bigformula").innerHTML=bf42;
-                            document.getElementById("bigformula").style.fontSize="1em";
+                            document.getElementById("bigformula").style.fontSize="1.75em";
                             break;
                         }
                     case 3:
@@ -469,7 +469,7 @@ function showformula(group, place)
                     case 3:
                         {
                             document.getElementById("bigformula").innerHTML=bf63;
-                            document.getElementById("bigformula").style.fontSize="2em";
+                            document.getElementById("bigformula").style.fontSize="2.5em";
                             break;
                         }
                 }
@@ -486,7 +486,7 @@ function showformula(group, place)
                     case 2:
                         {
                             document.getElementById("bigformula").innerHTML=bf72;
-                            document.getElementById("bigformula").style.fontSize="2em";
+                            document.getElementById("bigformula").style.fontSize="2.5em";
                             break;
                         }
                     case 3:
