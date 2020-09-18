@@ -1,55 +1,59 @@
 <!DOCTYPE HTML>
 <!-- Dzięki Olcia za pomoc w dobraniu RWD i ciepłe słowa <3 -->
 <html lang="pl">
-    <head>
-        <title>Wzory na chemię</title>
-        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Press+Start+2P&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@900&display=swap" rel="stylesheet">
-        <link rel="Stylesheet" href="style.css" type="text/css">
-        <link rel="shortcut icon" href="img/favicon.ico">
-        <script src="script.js"></script>
-    </head>
 
-    <body>
-        <header id="mainheader">
-            <p1>Witaj! Na tej stronie znajdziesz wiele wzorów matematycznych do nauki Chemii!</p1>
-            <p>Kliknij w konkretny dział z listy obok, aby zobaczyć wzory.</p>
-            <p id="footer">W razie problemów lub chęci dodania wzorów proszę o kontakt przez pocztę e-mail: wawrinka2005w@gmail.com<br>Wiktor Wiśniewski &copy;</p>
-        </header>
+<head>
+    <title>Wzory na chemię</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@900&display=swap" rel="stylesheet">
+    <link rel="Stylesheet" href="style.css" type="text/css">
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <script src="database.js"></script>
+    <script src="script.js"></script>
 
-        <main>
-            <nav>
-                <div class="subject" id="specialSubject" onclick="execute_formulas(1);">Elektrochemia</div>
-                <div class="subject" onclick="execute_formulas(2);">Chemia Kwasów i Zasad</div>
-                <div class="subject" onclick="execute_formulas(3);">Chemia Soli i Buforów</div>
-                <div class="subject" onclick="execute_formulas(4);">Stechiometria Ogólna</div>
-                <div class="subject" onclick="execute_formulas(5);">Stężenia</div>
-                <div class="subject" onclick="execute_formulas(6);">Wzory Organiczne</div>
-                <div class="subject" onclick="execute_formulas(7);">Chemia fizyczna</div>
-            </nav>
+</head>
 
-            <article id="formulas">
-                <div class="formula exoformula"></div>
-            </article>
+<body>
+    <header id="mainheader">
+        <p1>Witaj! Na tej stronie znajdziesz wiele wzorów matematycznych do nauki Chemii!</p1>
+        <p>Kliknij w konkretny dział z listy obok, aby zobaczyć wzory.</p>
+        <p id="footer">W razie problemów lub chęci dodania wzorów proszę o kontakt przez pocztę e-mail: wawrinka2005w@gmail.com<br>Wiktor Wiśniewski &copy;</p>
+    </header>
 
-            <article id="content">
+    <main>
+        <nav>
+            <div class="subject" id="specialSubject" onclick="execute_formulas(1);">Elektrochemia</div>
+            <div class="subject" onclick="execute_formulas(2);">Chemia Kwasów i Zasad</div>
+            <div class="subject" onclick="execute_formulas(3);">Chemia Soli i Buforów</div>
+            <div class="subject" onclick="execute_formulas(4);">Stechiometria Ogólna</div>
+            <div class="subject" onclick="execute_formulas(5);">Stężenia</div>
+            <div class="subject" onclick="execute_formulas(6);">Wzory Organiczne</div>
+            <div class="subject" onclick="execute_formulas(7);">Chemia fizyczna</div>
+        </nav>
 
-                <div id="bigformula">
-                    
-                </div>
-                <div id="explanation">
-                    
-                </div>
+        <article id="formulas">
+            <div class="formula exoformula"></div>
+        </article>
 
-            </article>
+        <article id="content">
 
-            <div style="clear: both;"></div>
-        </main>
+            <div id="bigformula">
 
-        <footer>
-            <div class="left">W razie problemów lub chęci dodania wzorów proszę o kontakt przez pocztę e-mail: wawrinka2005w@gmail.com</div>
-            <div class="right">Wiktor Wiśniewski 2020 &copy;</div>
-        </footer>
-    </body>
+            </div>
+            <div id="explanation">
+
+            </div>
+
+        </article>
+
+        <div style="clear: both;"></div>
+    </main>
+
+    <footer>
+        <div class="left">W razie problemów lub chęci dodania wzorów proszę o kontakt przez pocztę e-mail: wawrinka2005w@gmail.com</div>
+        <div class="right">Wiktor Wiśniewski 2020 &copy;</div>
+    </footer>
+</body>
+
 </html>

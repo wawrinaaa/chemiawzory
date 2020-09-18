@@ -62,8 +62,7 @@ article#content {
     margin: auto;
 }
 
-p#footer
-{
+p#footer {
     display: none;
 }
 
@@ -190,6 +189,7 @@ span.chrosshair {
     cursor: crosshair !important;
 }
 
+
 /* Mniejsze urządzenia SMALLER DEVICES */
 
 @media only screen and (max-width: 1870px) {
@@ -288,43 +288,41 @@ span.chrosshair {
     }
 }
 
+
 /* TODO: mobile version for screens < 1070px  //////// kinda done lol ///////*/
-@media only screen and (max-width: 1100px){
-    header#mainheader{
+
+@media only screen and (max-width: 1100px) {
+    header#mainheader {
         font-size: 1.5em;
     }
-	header#mainheader p
-	{
-		font-size: 0.4em;
-	}
-    main{
+    header#mainheader p {
+        font-size: 0.4em;
+    }
+    main {
         width: 100%;
         margin: 0;
         padding: 0;
     }
-    .formula{
-        color: #333; 
+    .formula {
+        color: #333;
     }
-    .formula:hover{
+    .formula:hover {
         background-color: transparent !important;
     }
-    footer{
+    footer {
         display: none;
     }
-    p#footer
-    {
+    p#footer {
         display: block;
         font-size: 7px;
     }
-    #bigformula
-    {
+    #bigformula {
         font-size: 1.5em !important;
     }
-    #explanation
-    {
+    #explanation {
         font-size: 12px;
     }
-	span.smallerfontpls
-	{
-		font-size: 0.8em !important;
+    span.smallerfontpls {
+        font-size: 0.8em !important;
+    }
 }
